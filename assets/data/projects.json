@@ -1,0 +1,107 @@
+{
+  "title": "My Projects",
+  "projects": [
+    {
+      "duration": "June 2025 – Till date",
+      "company": "Version 1",
+      "name": "Engagement Could Core (DotDigital)",
+      "description": "Dotdigital’s Engagement Cloud is a SaaS omnichannel marketing automation platform designed to help businesses create personalized campaigns across email, SMS, push notifications, social media, live chat, and more",
+      "technologies": [
+        ".NET Framework 4.6",
+        "C#",
+        ".NET 8",
+        "MVC5",
+        "Angular 15",
+        "GitHub Copilot",
+        "DevOps"
+      ],
+      "role": "Leading a team, code review, mentoring, SQL optimization while delivering the assigned tasks"
+    },
+    {
+      "duration": "Mar 2023 – Aug 2024",
+      "company": "Trigent Software Limited",
+      "name": "Jordi Labs",
+      "description": "Application for scientific analysis and identification of contaminants from various sources",
+      "technologies": [
+        ".NET 4.6",
+        "C#",
+        "SQL Server",
+        "RESTful API",
+        "LINQ",
+        "Bitbucket"
+      ],
+      "role": "Individual contributor, client interaction, requirement gathering and implementation"
+    },
+    {
+      "duration": "June 2018 – Sep 2020",
+      "company": "Trigent Software Limited",
+      "name": "NJLS (New Jersey Lawyers Service)",
+      "description": "Legal application with courier and e-filing for courts, clients and legal professionals in the USA",
+      "technologies": [
+        ".NET Core",
+        ".NET Framework",
+        "ASP.NET",
+        "C#",
+        "RESTful Web API",
+        "SQL Server",
+        "LINQ",
+        "Git"
+      ],
+      "role": "Individual contributor, requirement analysis and timely solution delivery"
+    },
+    {
+      "duration": "Aug 2016 – May 2018",
+      "company": "Odiware",
+      "name": "Online Exam RESTful Web API",
+      "description": "REST API for online exams and campus management system",
+      "technologies": [
+        ".NET Core 1.0",
+        "EF",
+        "LINQ",
+        "SQL Server",
+        "Ocelot (API Gateway)"
+      ],
+      "role": "Project planner and developer, led two developers and one tester"
+    },
+    {
+      "duration": "Jan 2013 – Jul 2016",
+      "company": "TSD College",
+      "name": "College Automation System",
+      "description": "Education ERP with modules like Finance, Student, Staff, Library, etc.",
+      "technologies": [
+        ".NET Framework",
+        "C#",
+        "ASP.NET",
+        "SQL Server",
+        "TFS",
+        "Angular 15"
+      ],
+      "role": "Architect and team lead (four developers and one tester)"
+    },
+    {
+      "duration": "Mar 2011 – Dec 2012",
+      "company": "Micro Leasing and Funding",
+      "name": "Micro ERP",
+      "description": "ERP software used across 100+ branches in Odisha for finance and field operations",
+      "technologies": [
+        ".NET Framework",
+        "ASP.NET",
+        "C#",
+        "SQL Server",
+        "TFS",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "role": "Architect and team lead (eight developers and two testers)"
+    },
+    {
+      "duration": "May 2006 – Sep 2010",
+      "company": "CMA CGM Systems",
+      "name": "Hazardous Cargo Approval and Request Proposal",
+      "description": "Window application to screen cargo info against IMDG standards",
+      "technologies": ["Visual Basic 6", ".NET Framework", "VB.NET", "Oracle"],
+      "role": "Module lead, liaison with France HQ"
+    }
+  ]
+}

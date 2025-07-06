@@ -9,6 +9,19 @@
       | Angular | C# | .NET8 | SQL Server
     </title>
 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,37 +45,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <script>
-      function showPage(pageName) {
-        //alert(pageName);
-        debugger;
-        var page_home = document.getElementById("home");
-        var page_about = document.getElementById("about");
-        var page_projects = document.getElementById("projects");
-        var page_resume = document.getElementById("resume");
-        var page_contact = document.getElementById("contact");
-
-        page_home.classList.add("d-none");
-        page_about.classList.add("d-none");
-        page_projects.classList.add("d-none");
-        page_resume.classList.add("d-none");
-        page_contact.classList.add("d-none");
-
-        var page_current = document.getElementById(pageName);
-        page_current.classList.remove("d-none");
-        page_current.classList.add("d-block");
-
-        //alert(page_current);
-      }
-    </script>
+    <link rel="stylesheet" href="myStyle.css" />
+    <script src="myScript.js"></script>
   </head>
+
   <body>
     <div style="text-align: center">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="javascript:showPage('home');"
-            >Kishor Chandra Tripathy</a
+            >KC Tripathy</a
           >
           <button
             class="navbar-toggler"
@@ -91,27 +83,23 @@
                 >
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="javascript:showPage('projects');"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="javascript:showPage('resume');"
                   >Resume</a
                 >
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="javascript:showPage('projects');"
-                  >Projects</a
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:showPage('downloads');"
+                  >Downloads</a
                 >
-              </li> -->
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="javascript:showPage('contact');"
                   >Contact</a
-                >
-              </li>
-              <li class="nav-item d-none">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Disabled</a
                 >
               </li>
             </ul>
@@ -125,9 +113,8 @@
         <div class="row">
           <div class="col-lg-4">
             <img
-              src="kct.jpg"
-              class="img img-fluid rounded-circle mx-auto"
-              style="border: solid 1px #ccc; padding: 5px; margin-top: 66px"
+              src="./assets/images/kct.jpg"
+              class="img img-fluid rounded-circle mx-auto my-photo"
               width="200px"
             />
           </div>
@@ -135,32 +122,36 @@
             <h4 class="sub-title">Welcome to My Website</h4>
             <div class="divider-2"></div>
             <p>
-              Hi! I’m <span class="kt-highlight">Kishor Tripathy</span>, a passionate software developer having more than two decades
-              of experience and a curious individual with a deep love for
+              Hi! I’m <span class="kt-highlight">Kishor Tripathy</span>, a
+              passionate software professional having more than two decades of
+              experience and a curious individual with a deep love for
               <span class="kt-highlight">technology</span>,
-              <span class="kt-highlight">creativity</span>,
-              <span class="kt-highlight">hindusthan classical music</span>,
+              <span class="kt-highlight">music</span>,
+              <span class="kt-highlight">gardening</span>,
               <span class="kt-highlight">plantation</span> and
               <span class="kt-highlight">sports</span>.
             </p>
             <p>
               I like to live a simple life and believe in making a positive
               impact with everything I do. Whether it's through the melodies of
-              the Indian Bamboo <span class="kt-highlight">flute</span>, <span
-                class="kt-highlight"
-                >harmonium</span
-              >
-              lines of <span class="kt-highlight">code</span>, sharing
-              knowledge, etc...
+              the Indian Bamboo
+              <span class="kt-highlight"
+                ><a
+                  href="https://youtu.be/kEzJQGV1gUI?si=sx66Y63BPugIZD-g&t=25"
+                  target="_blank"
+                  >flute</a
+                ></span
+              >, <span class="kt-highlight">harmonium</span>, lines of
+              <span class="kt-highlight">code</span>, sharing knowledge, etc...
             </p>
 
             <p>
-              Professionally, I work with modern technologies to build
-              intuitive, efficient, robust and scalable web applications using
+              Professionally, I work with modern technologies (
               <span class="kt-highlight">Angular</span>,
-              <span class="kt-highlight">C#</span>, .Net Frameworks,
-              <span class="kt-highlight">.NET8</span> and
-              <span class="kt-highlight">SQL</span> Server.
+              <span class="kt-highlight">.NET8</span>,
+              <span class="kt-highlight">C#</span>,
+              <span class="kt-highlight">SQL</span> Server) to build entreprise
+              level robust applications.
             </p>
           </div>
         </div>
@@ -170,8 +161,8 @@
         <div class="row">
           <div class="col-lg-4">
             <img
-              src="bdpur.jpg"
-              class="img img-fluid rounded"
+              src="./assets/images/bdpur.jpg"
+              class="img img-fluid rounded my-village-photo"
               style="border: solid 1px #ccc; padding: 5px; margin-top: 112px"
               width="100%"
             />
@@ -182,11 +173,16 @@
             <p>
               Born on the culturally rich lands of
               <span class="kt-highlight">Odisha</span>, India, I’ve grown up at
-              Tumudibanda and at my village (<span class="kt-highlight"><a href="https://en.wikipedia.org/wiki/Bijayadhanurjayapur" target="_blank">
-Bijaya Dhanurjayapur - Sasan
-              </a></span>),
-              surrounded by a deep appreciation for plantation, <span class="kt-highlight">folk-art</span>,
-              tradition, and the power of technology to transform lives.
+              Tumudibanda and at my village (<span class="kt-highlight"
+                ><a
+                  href="https://en.wikipedia.org/wiki/Bijayadhanurjayapur"
+                  target="_blank"
+                >
+                  Bijaya Dhanurjayapur - Sasan
+                </a></span
+              >), surrounded by a deep appreciation for plantation,
+              <span class="kt-highlight">folk-art</span>, tradition, and the
+              power of technology to transform lives.
             </p>
             <p>
               Over the years, I’ve cultivated a unique path that merges two
@@ -200,12 +196,20 @@ Bijaya Dhanurjayapur - Sasan
       </section>
 
       <section id="projects" class="d-none">
-        <h2>Projects</h2>
+         <h4 class="sub-title" id="page-title">Projects</h4>
+        <div class="divider-2"></div>
+        <div id="project-list"></div>
       </section>
 
-      <section id="resume" class="d-none" style="height: 100vh">
-        <h4 class="sub-title">My Resume</h4>
+      <section id="downloads" class="d-none">
+        <h4 class="sub-title">Downloads</h4>
         <div class="divider-2"></div>
+        <div id="download-list"></div>
+      </section>
+
+      <section id="resume" class="d-none" style="height: 60vh">
+        <!-- <h4 class="sub-title">My Resume</h4>
+      <div class="divider-2"></div> -->
         <embed
           src="resume.pdf"
           type="application/pdf"
@@ -227,7 +231,9 @@ Bijaya Dhanurjayapur - Sasan
 
         <p>
           Github:
-          <a href="https://github.com/kctripathy" target="_blank">github.com/kctripathy</a>
+          <a href="https://github.com/kctripathy" target="_blank"
+            >github.com/kctripathy</a
+          >
         </p>
         <p>
           LinkedIn:
@@ -252,31 +258,35 @@ Bijaya Dhanurjayapur - Sasan
 
     <div class="kt-footer bg-light">
       <ul id="footer-social-icons">
-
         <li>
           <a href="https://github.com/kctripathy" target="_blank"
-            ><i class="bi bi-github text-secondary"></i>Github
+            ><i class="bi bi-github text-secondary"></i>
+            <span class="social-media-text">Github</span>
           </a>
         </li>
         <li>
           <a href="https://www.youtube.com/kctripathy" target="_blank"
-            ><i class="bi bi-youtube text-danger"></i>YouTube</a
+            ><i class="bi bi-youtube text-danger"></i>
+            <span class="social-media-text">YouTube</span></a
           >
         </li>
         <li>
           <a href="https://www.facebook.com/kishorctripathy" target="_blank"
-            ><i class="bi bi-facebook"></i>Facebook</a
+            ><i class="bi bi-facebook"></i>
+            <span class="social-media-text">Facebook</span></a
           >
         </li>
         <li>
           <a href="https://www.linkedin.com/in/kctripathy"
-            ><i class="bi bi-linkedin"></i>LinkedIn</a
-          >
+            ><i class="bi bi-linkedin"></i>
+            <span class="social-media-text">LinkedIn</span>
+          </a>
         </li>
         <li>
           <a href="https://x.com/KishorTripathy" target="_blank"
-            ><i class="bi bi-twitter-x text-secondary"></i>Twitter(X)</a
-          >
+            ><i class="bi bi-twitter-x text-secondary"></i>
+            <span class="social-media-text">Twitter(X)</span>
+          </a>
         </li>
       </ul>
     </div>
