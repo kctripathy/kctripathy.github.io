@@ -1,5 +1,17 @@
+.container {
+	align-content: center;
+	width: 80vw;
+    margin-left: 10vw;
+}
+
+.container-fluid {
+    align-content: center;
+	width: 800px;
+}
+
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: Roboto, serif;
   margin: 0;
   background-color: #f4f9ff;
   color: #333;
@@ -34,25 +46,54 @@ main {
   border: solid 1px #ccc;
 }
 
-footer {
+/* footer {
   background-color: #e3f2fd;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
   color: #555;
   margin-top: 2rem;
+  margin-left: 2rem;
   bottom: 0;
   position: fixed;
-  width: 100vw;
+  width: 1000px;
+} */
+.kt-footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100vw;
+    font-size: 0.9rem;
+    padding: 10px 0px;
+    border-top: solid 1px #ccc;
 }
-
 section {
 	align-content: center;
 	text-align: center;
 }
 
+ul#footer-social-icons {
+    list-style-type: none;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
-##########################
+ul#footer-social-icons  li {
+    display: block;
+    float: left;
+    width: 15%;
+}
+
+ul#footer-social-icons  li.label {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+
 /* You can add global styles to this file, and also import other style files */
 h4 {
     font-size: 1.2rem;
@@ -61,7 +102,7 @@ h4 {
 }
 
 h4.sub-title {
-    font-size: 1.85rem;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 0;
     margin: 20px 0px 5px 0px;
@@ -79,26 +120,21 @@ h5 {
 }
 
 .divider-2 {
-    margin-top: 15px;
+    margin: 25px 0px;
     height: 1px;
-    background: linear-gradient(90deg,rgba(204, 204, 204, 1) 0%, rgba(237, 237, 237, 1) 50%, rgba(255, 255, 255, 1) 100%);
+   background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(0, 168, 107, 1) 50%, rgba(255, 255, 255, 1) 100%);
 }
 
 .kt-highlight {
     /*font-weight: bold !important;*/
-	color: #3d62f1;
+	color: #00A86B
 }
 
 i {
     margin-right: 10px;
 }
 
-.container {
-	align-content: center;
-	width: 80vw;
-    margin-left: 10vw;
-}
-######################
+
 .title-summary {
     display: none I !important;
 }
@@ -134,4 +170,13 @@ li.topic-value {
 
 .big-icon {
 	font-size: 1.54rem;
+}
+
+a {
+    color: #0027a8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #014129;
 }
