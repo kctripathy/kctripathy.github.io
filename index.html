@@ -47,6 +47,9 @@
     />
     <link rel="stylesheet" href="myStyle.css" />
     <script src="myScript.js"></script>
+    <script>
+      loadHTML('home', 'home-page');
+    </script>
   </head>
 
   <body>
@@ -88,8 +91,8 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:showPage('resume');"
-                  >Resume</a
+                <a class="nav-link" href="javascript:showPage('gallery');"
+                  >Gallery</a
                 >
               </li>
               <li class="nav-item">
@@ -110,92 +113,15 @@
 
     <main style="text-align: center">
       <section id="home">
-        <div class="row">
-          <div class="col-lg-4">
-            <img
-              src="./assets/images/kct.jpg"
-              class="img img-fluid rounded-circle mx-auto my-photo"
-              width="200px"
-            />
-          </div>
-          <div class="col-lg-8">
-            <h4 class="sub-title">Welcome to My Website</h4>
-            <div class="divider-2"></div>
-            <p>
-              Hi! I’m <span class="kt-highlight">Kishor Tripathy</span>, a
-              passionate software professional having more than two decades of
-              experience and a curious individual with a deep love for
-              <span class="kt-highlight">technology</span>,
-              <span class="kt-highlight">music</span>,
-              <span class="kt-highlight">gardening</span>,
-              <span class="kt-highlight">plantation</span> and
-              <span class="kt-highlight">sports</span>.
-            </p>
-            <p>
-              I like to live a simple life and believe in making a positive
-              impact with everything I do. Whether it's through the melodies of
-              the Indian Bamboo
-             <a
-                  href="https://en.wikipedia.org/wiki/Flute#Indian"
-                  class="kt-highlight"
-                  target="_blank"
-                  >flute</a
-                >, <a href="https://en.wikipedia.org/wiki/Indian_harmonium" target="_blank" class="kt-highlight">harmonium</a>, lines of
-              <span class="kt-highlight">code</span>, sharing knowledge, etc...
-            </p>
-
-            <p>
-              Professionally, I work with modern technologies (
-              <span class="kt-highlight">Angular</span>,
-              <span class="kt-highlight">.NET8</span>,
-              <span class="kt-highlight">C#</span>,
-              <span class="kt-highlight">SQL</span> Server) to build entreprise
-              level robust applications.
-            </p>
-          </div>
-        </div>
+        <div id="home-page"></div>
       </section>
 
       <section id="about" class="d-none">
-        <div class="row">
-          <div class="col-lg-4">
-            <img
-              src="./assets/images/bdpur.jpg"
-              class="img img-fluid rounded my-village-photo"
-              style="border: solid 1px #ccc; padding: 5px; margin-top: 112px"
-              width="100%"
-            />
-          </div>
-          <div class="col-lg-8">
-            <h4 class="sub-title">About me</h4>
-            <div class="divider-2"></div>
-            <p>
-              Born on the culturally rich lands of
-              <span class="kt-highlight">Odisha</span>, India, I’ve grown up at
-              Tumudibanda and at my village (<span class="kt-highlight"
-                ><a
-                  href="https://en.wikipedia.org/wiki/Bijayadhanurjayapur"
-                  target="_blank"
-                >
-                  Bijaya Dhanurjayapur - Sasan
-                </a></span
-              >), surrounded by a deep appreciation for plantation,
-              <span class="kt-highlight">folk-art</span>, tradition, and the
-              power of technology to transform lives.
-            </p>
-            <p>
-              Over the years, I’ve cultivated a unique path that merges two
-              passions — software development and the soulful melodies of the
-              Indian classical music using
-              <span class="kt-highlight">bamboo flute (bansuri)</span> and
-              <span class="kt-highlight">harmonium</span>.
-            </p>
-          </div>
-        </div>
+        <div id="about-page"></div>
       </section>
 
       <section id="projects" class="d-none">
-         <h4 class="sub-title" id="page-title">Projects</h4>
+        <h4 class="sub-title" id="page-title">Projects</h4>
         <div class="divider-2"></div>
         <div id="project-list"></div>
       </section>
@@ -211,15 +137,9 @@
         <div class="row m-2" id="download-list"></div>
       </section>
 
-      <section id="resume" class="d-none" style="height: 60vh">
-        <!-- <h4 class="sub-title">My Resume</h4>
-      <div class="divider-2"></div> -->
-        <embed
-          src="resume.pdf"
-          type="application/pdf"
-          width="100%"
-          height="100%"
-        />
+      <section id="gallery" class="d-none" style="height: 60vh">
+        <h4 class="sub-title">Gallery</h4>
+        <div class="divider-2"></div>
       </section>
 
       <section id="contact" class="d-none">

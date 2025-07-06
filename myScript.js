@@ -22,26 +22,28 @@ function showPage(pageName) {
   var page_current = document.getElementById(pageName);
   page_current.className = "d-block";
 
-  if (pageName == "downloads") {
+  if (pageName == "home") {
+    loadHTML('home', 'home-page');
+  } 
+  else if (pageName == "about") {
+    loadHTML('about', 'about-page');
+  } 
+  else if (pageName == "downloads") {
     fetchDownloads();
-  } else if (pageName == "projects") {
+  } 
+  else if (pageName == "projects") {
     fetchProject();
   }
 
   return false;
 }
 
-// function fetchDownloads() {
-//   fetch("./assets/data/downloads.json")
-//     .then((response) => {
-//       if (!response.ok) {
-//         throw new Error(`HTTP error! Status: ${response.status}`);
-//       }
-//       return response.json();
-//     })
-//     .then((data) => console.log(data))
-//     .catch((error) => console.error("Failed to fetch data:", error));
-// }
+function loadHTML(page, id) {
+  fetch(`./assets/html/${page}.html`)
+      .then(response => response.text())
+      .then(text => document.getElementById(`${id}`).innerHTML = text);
+}
+
 
 function fetchProject() {
   fetch("./assets/data/projects.json")
