@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f9ff;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  display: block;
+  margin: 20px auto;
+  border: solid 1px #ccc;
+}
+
+footer {
+  background-color: #e3f2fd;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 2rem;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+}
+
+section {
+	align-content: center;
+	text-align: center;
+}
+
+
+##########################
+/* You can add global styles to this file, and also import other style files */
+h4 {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 10px 0px 0px 0px;
+}
+
+h4.sub-title {
+    font-size: 1.85rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0px 5px 0px;
+}
+
+h5 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.divider {
+    margin: 10px 0px;
+    height: 1px;
+    background: linear-gradient(90deg,rgba(204, 204, 204, 1) 0%, rgba(237, 237, 237, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.divider-2 {
+    margin-top: 15px;
+    height: 1px;
+    background: linear-gradient(90deg,rgba(204, 204, 204, 1) 0%, rgba(237, 237, 237, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.kt-highlight {
+    /*font-weight: bold !important;*/
+	color: #3d62f1;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.container {
+	align-content: center;
+	width: 80vw;
+    margin-left: 10vw;
+}
+######################
+.title-summary {
+    display: none I !important;
+}
+
+ul.topics {
+display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: solid 1px #ccc;
+    height: 112px;
+}
+ul.topics > li {
+    display: block;
+    float: left;
+}
+
+li.topic-label {
+    width: 20%;
+    font-weight: bold;
+    text-align: right;
+	display: block;
+    float: left;
+	padding: 5px 0px;
+}
+
+li.topic-value {
+    width: 79%;
+	display: block;
+    float: left;
+	padding: 5px 0px 5px 5px;
+}
+
+.big-icon {
+	font-size: 1.54rem;
+}
