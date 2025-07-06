@@ -116,7 +116,7 @@ h5 {
 }
 
 .divider-2 {
-  margin: 25px 0px;
+  margin: 10px 0px;
   height: 1px;
   background: linear-gradient(
     90deg,
@@ -174,7 +174,7 @@ li.topic-value {
 
 a {
   color: #0027a8;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -187,6 +187,13 @@ a:hover {
   margin-top: 66px;
 }
 
+.download-link {
+  text-decoration: none;
+}
+.small-text {
+  font-size: .9rem;
+  margin-top: -6px !important;
+}
 .active-menu {
   font-weight: bold;
   color: #00a86b;

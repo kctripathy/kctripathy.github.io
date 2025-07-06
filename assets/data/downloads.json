@@ -1,9 +1,44 @@
 {
   "title": "My Downloads",
-  "downloads": [
+  "ayurveda": [
     {
-       "name": "My Resume",
-       "link": "resume.pdf"
-    } 
+      "name": "Drabyaguna Kalpadruma",
+      "author": "Dr. Brajabandhu Tripathy",
+      "link": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
+    },
+    {
+      "name": "Anubhuta Jogamala o Sahaja Chikitsa",
+      "author": "Dr. Laxmana Mishra",
+      "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
+    }
+  ],
+  "music": [
+    {
+      "name": "Playing Guitar A Beginner's Guide",
+      "author": "Darrin Koltow",
+      "link": "./assets/downloads/PlayingGuitarABeginnerGuide.pdf"
+    },
+    {
+      "name": "Chords & Scales For Guitar",
+      "author": "Blaky Neely and Jeff Schroed",
+      "link": "./assets/downloads/Chords & Scales For Guitar.pdf"
+    }
+  ],
+  "books": [
+    {
+      "name": "Inside Mind of Winners",
+      "author": "Charles Burke",
+      "link": "./assets/downloads/Inside-Mind-of-Winners.pdf"
+    },
+    {
+      "name": "Rich Dad, Poor Dad",
+      "author": "By Robert T. Kiyosaki",
+      "link": "./assets/downloads/rich-dad-poor-dad.pdf"
+    },
+    {
+      "name": "Chandamama Coffee Table Book",
+      "author": "Chandamama Publication",
+      "link": "./assets/downloads/Chandamama_CoffeeTableBook.pdf"
+    }
   ]
 }
