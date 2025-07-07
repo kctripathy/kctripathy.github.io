@@ -1,6 +1,9 @@
 {
   "title": "My Downloads",
-  "ayurveda": [
+  "ayurveda": {
+    "name": "Ayurveda",
+    "data" : 
+    [
     {
       "name": "Drabyaguna Kalpadruma",
       "author": "Dr. Brajabandhu Tripathy",
@@ -11,7 +14,9 @@
       "author": "Dr. Laxmana Mishra",
       "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
     }
-  ],
+  ]
+  }
+   ,
   "music": [
     {
       "name": "Playing Guitar A Beginner's Guide",
@@ -37,29 +42,6 @@
     },
     {
       "name": "Chandamama Coffee Table Book",
-      "author": "Chandamama Publication",
-      "link": "./assets/downloads/Chandamama_CoffeeTableBook.pdf"
-    },
-    {
-      "name": "Premchandnka Galpamala",
-      "author": "Radhakrisna",
-      "link": "https://drive.google.com/file/d/1giWuWJGZ-P8K_tFuDQ8YlObzAWW12MHK/view?usp=drive_link"
-    }
- 
-  ],
-  "lyrics": [
-    {
-      "name": "lyrics Inside Mind of Winners",
-      "author": "Charles Burke",
-      "link": "./assets/downloads/Inside-Mind-of-Winners.pdf"
-    },
-    {
-      "name": "lyrics Rich Dad, Poor Dad",
-      "author": "By Robert T. Kiyosaki",
-      "link": "./assets/downloads/rich-dad-poor-dad.pdf"
-    },
-    {
-      "name": "lyrics Chandamama Coffee Table Book",
       "author": "Chandamama Publication",
       "link": "./assets/downloads/Chandamama_CoffeeTableBook.pdf"
     },

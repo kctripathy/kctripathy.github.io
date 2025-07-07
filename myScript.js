@@ -167,3 +167,73 @@ function getTech(technologies) {
 
   return returnText.substring(0, returnText.length - 2);
 }
+
+ function fetchDownloads2 () {
+   
+   fetch("./assets/data/downloads.json")
+   .then((response) => response.json())
+   .then((data) => {
+    //console.log(data);
+    //const allArrays = findAllArrays(data);
+    //console.log(allArrays);
+    // var totalProjects = data.projects.length;
+    // for (var i=0; i < data.projects.length; i++) {
+    //     console.log(data.projects[i]);
+    // }
+     const arrayProps = findArrayProperties(data);
+    //console.log(arrayProps);
+    
+    arrayProps.forEach((arr)=> {
+      var arrayName = arr.path;
+      var arrayValue = arr.value;
+
+      console.log(arrayName);
+      console.log(arrayValue);
+      arrayValue.forEach((v)=>{
+        console.log(`${v.name} ${v.author}`);
+      })
+    })
+    debugger;
+
+    })
+    .catch((error) => {
+      document.getElementById("page-title").innerHTML =
+        "Error loading projects.";
+      console.error("Error:", error);
+    });
+}
+
+function findAllArrays(obj) {
+  let arrays = [];
+
+  function recurse(current) {
+    if (Array.isArray(current)) {
+      arrays.push(current);
+    } else if (typeof current === "object" && current !== null) {
+      for (let key in current) {
+        recurse(current[key]);
+      }
+    }
+  }
+
+  recurse(obj);
+  return arrays;
+}
+
+function findArrayProperties(obj, parentPath = "") {
+  let result = [];
+
+  function recurse(current, path) {
+    if (Array.isArray(current)) {
+      result.push({ path, value: current });
+    } else if (typeof current === "object" && current !== null) {
+      for (let key in current) {
+        let newPath = path ? `${path}.${key}` : key;
+        recurse(current[key], newPath);
+      }
+    }
+  }
+
+  recurse(obj, parentPath);
+  return result;
+}
