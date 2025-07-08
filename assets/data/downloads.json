@@ -81,6 +81,21 @@
           "link": "https://drive.google.com/file/d/1W11auxavQWgGJpgZ4sUz6Ul964CGZ5Or/view?usp=drive_link"
         }
       ]
+,
+      "literature (Bengali)": [
+        {
+          "name": "Adarsh Hindu Hotel",
+          "author": "Bibhuti Bhusan Cahtopadhyaya",
+          "link": "https://archive.org/download/in.ernet.dli.2015.286981/2015.286981.Adarsh-Hindu.pdf"
+        },
+        {
+          "name": "Ashapurna Devi Collection",
+          "author": "আশাপূর্ণা  দেবী",
+          "link": "https://archive.org/compress/ashapurna-devi/formats=IMAGE%20CONTAINER%20PDF,TEXT%20PDF&file=/ashapurna-devi.zip"
+        } 
+      ]
+
+      
     }
   ]
 }
