@@ -38,6 +38,18 @@
       ],
       "literature (English)": [
         {
+          "name": "The Bridge in the Moonlit Night",
+          "author": "Manoj Das",
+          "link": "https://archive.org/details/dli.nbt.109"
+        },
+
+        {
+          "name": "Many World of Manoj Das",
+          "author": "Manoj Das",
+          "link": " http://www.worldofmanojdas.in/life/pdf/Many-World-of-Manoj-Das.pdf"
+        },
+
+        {
           "name": "Inside Mind of Winners",
           "author": "Charles Burke",
           "link": "./assets/downloads/Inside-Mind-of-Winners.pdf"
@@ -62,9 +74,6 @@
           "author": "JP Das",
           "link": "https://drive.google.com/file/d/1W11auxavQWgGJpgZ4sUz6Ul964CGZ5Or/view?usp=drive_link"
         }
-
-        
-        
       ]
     }
   ]
