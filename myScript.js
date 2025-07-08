@@ -2,37 +2,39 @@ function sayHello() {
   alert("Hello");
 }
 
+// This function will show the page on click of the link
 function showPage(pageName) {
   var btns = $("#navbarNav .navbar-nav .nav-link");
 
   for (var i = 0; i < btns.length; i++) {
-    console.log(btns[i].innerText.toLowerCase());
     var section_name = btns[i].innerText.toLowerCase();
     var page_section = document.getElementById(section_name);
 
+    // add active css to the link
     if (btns[i].innerText.toLowerCase() == pageName) {
       btns[i].classList.add("active-menu");
     } else {
       btns[i].classList.remove("active-menu");
     }
 
+    // hide all the sections in the index page
     page_section.className = "d-none";
   }
 
+  // get the current section by page name and show it
   var page_current = document.getElementById(pageName);
   page_current.className = "d-block";
 
   if (pageName == "home") {
-    loadHTML('home', 'home-page');
-  } 
-  else if (pageName == "about") {
-    loadHTML('about', 'about-page');
-  } 
-  else if (pageName == "downloads") {
+    loadHTML("home", "home-page");
+  } else if (pageName == "about") {
+    loadHTML("about", "about-page");
+  } else if (pageName == "downloads") {
     fetchDownloads();
-  } 
-  else if (pageName == "projects") {
+  } else if (pageName == "projects") {
     fetchProject();
+  } else if (pageName == "contact") {
+    loadHTML("contact", "contact-page");
   }
 
   return false;
@@ -40,10 +42,9 @@ function showPage(pageName) {
 
 function loadHTML(page, id) {
   fetch(`./assets/html/${page}.html`)
-      .then(response => response.text())
-      .then(text => document.getElementById(`${id}`).innerHTML = text);
+    .then((response) => response.text())
+    .then((text) => (document.getElementById(`${id}`).innerHTML = text));
 }
-
 
 function fetchProject() {
   fetch("./assets/data/projects.json")
@@ -99,66 +100,6 @@ function fetchProject() {
     });
 }
 
-function fetchDownloads() {
-  fetch("./assets/data/downloads.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const container = document.getElementById("download-list");
-      container.innerHTML = "";
-
-      //   ayurveda
-      const div = document.createElement("div");
-      div.className = "col-lg-12 m-0 mb-2 bg-light";
-      div.innerHTML = "AYURVEDA";
-      container.appendChild(div);
-
-      data.ayurveda.forEach((download) => {
-        const div = document.createElement("div");
-        div.className = "col-lg-6 m-0 mb-2";
-        div.innerHTML = `<a href='${download.link}' class='download-link' target='_blank'>${download.name}</a>
-                        <div class='small-text text-secondary'>${download.author}</div>
-                        `;
-        container.appendChild(div);
-      });
-
-      //   ayurveda
-      let div2 = document.createElement("div");
-      div2.className = "col-lg-12 m-0 mb-2 bg-light";
-      div2.innerHTML = "BOOKS";
-      container.appendChild(div2);
-
-      data.books.forEach((download) => {
-        const div = document.createElement("div");
-        div.className = "col-lg-6 m-0 mb-2";
-        div.innerHTML = `<a href='${download.link}' class='download-link' target='_blank'>${download.name}</a>
-                        <div class='small-text text-secondary'>${download.author}</div>
-                        `;
-        container.appendChild(div);
-      });
-
-       //   music
-      div2 = document.createElement("div");
-      div2.className = "col-lg-12 m-0 mb-2 bg-light";
-      div2.innerHTML = "MUSIC";
-      container.appendChild(div2);
-
-      data.music.forEach((download) => {
-        const div = document.createElement("div");
-        div.className = "col-lg-6 m-0 mb-2";
-        div.innerHTML = `<a href='${download.link}' class='download-link' target='_blank'>${download.name}</a>
-                        <div class='small-text text-secondary'>${download.author}</div>
-                        `;
-        container.appendChild(div);
-      });
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
-
-    
-
-}
-
 function getTech(technologies) {
   var returnText = "";
   technologies.forEach((technology) => {
@@ -168,33 +109,209 @@ function getTech(technologies) {
   return returnText.substring(0, returnText.length - 2);
 }
 
- function fetchDownloads2 () {
-   
-   fetch("./assets/data/downloads.json")
-   .then((response) => response.json())
-   .then((data) => {
-    //console.log(data);
-    //const allArrays = findAllArrays(data);
-    //console.log(allArrays);
-    // var totalProjects = data.projects.length;
-    // for (var i=0; i < data.projects.length; i++) {
-    //     console.log(data.projects[i]);
-    // }
-     const arrayProps = findArrayProperties(data);
-    //console.log(arrayProps);
-    
-    arrayProps.forEach((arr)=> {
-      var arrayName = arr.path;
-      var arrayValue = arr.value;
+function fetchDownloads() {
+  fetch("./assets/data/downloads.json")
+    .then((response) => response.json())
+    .then((data) => {
+      
+      // clear the section before adding elements
+      const container_nav = document.getElementById("myTab");
+      const container_tabPanel = document.getElementById("myTabContent");
+      container_nav.innerHTML = "";
+      container_tabPanel.innerHTML = "";
 
-      console.log(arrayName);
-      console.log(arrayValue);
-      arrayValue.forEach((v)=>{
-        console.log(`${v.name} ${v.author}`);
-      })
+      const ul = document.getElementById("myTab");
+      const tabContent = document.getElementById("myTabContent");
+
+      const arrayProps = findArrayProperties(data);
+
+      var ctr = 0;
+      arrayProps.forEach((arr) => {
+        ctr++;
+        var arrayName = arr.path;
+        var arrayValue = arr.value;
+
+        //------------------
+        // SET NAV MENU BAR
+        //------------------
+
+        var li = document.createElement("li");
+        li.className = "nav-item";
+        li.setAttribute("role", "presentation");
+
+        var btn = document.createElement("button");
+        btn.innerHTML = toProperCase(arrayName);
+        btn.className = "nav-link";
+        btn.setAttribute("id", `${arrayName}-tab`);
+        btn.setAttribute("data-bs-toggle", "tab");
+        btn.setAttribute("data-bs-target", `#${arrayName}-1`);
+        btn.setAttribute("aria-controls", `#${arrayName}-1`);
+        btn.setAttribute("type", "button");
+        btn.setAttribute("role", "tab");
+        btn.setAttribute("aria-selected", "true");
+        if (ctr == 1) {
+          btn.classList.add("active");
+        }
+
+        li.appendChild(btn);
+
+        //-----------------------------
+        // SET TAB CONTENT FOR THE MENU
+        //--------------------------------
+        const div = document.createElement("div");
+
+        div.classList.add("tab-pane", "fade");
+
+        div.setAttribute("id", `${arrayName}-1`);
+        div.setAttribute("role", "tabpanel");
+        div.setAttribute("aria-labelledby", `#${arrayName}-tab`);
+        if (ctr == 1) {
+          div.classList.add("fade", "show", "active");
+        }
+
+        const div_ul = document.createElement("ul");
+        div_ul.setAttribute("id", `${arrayName}-ul`);
+        div_ul.className = "inner_ul";
+
+
+        div.appendChild(div_ul);
+
+        tabContent.appendChild(div);
+        ul.appendChild(li);
+
+        var tabUl = document.getElementById(`${arrayName}-ul`);
+
+        arrayValue.forEach((v) => {
+          const arrayProps1 = findArrayProperties(v);
+          var li_conent = populateContent(arrayProps1)
+          tabUl.appendChild(li_conent);
+        });
+      });
     })
-    debugger;
+    .catch((error) => {
+      document.getElementById("page-title").innerHTML =
+        "Error loading projects.";
+      console.error("Error:", error);
+    });
+}
 
+function populateContent(arr)
+{
+  const inner_ul = document.createElement("ul");
+
+  arr.forEach((obj)=> {
+
+    var category_name = obj.path;
+    var category_arr = obj.value;
+
+    const inner_li = document.createElement("li");
+    inner_li.className = "category-li";
+    inner_li.innerHTML = `<i class='bi-play-fill'></i>${toProperCase(category_name)}`;
+    inner_ul.appendChild(inner_li);
+
+    category_arr.forEach((v)=> {
+
+      const inner_li_2 = document.createElement("li");
+      inner_li_2.innerHTML = `<a href='${v.link}' target='_blank'>${v.name}</a><div class='author-name'>${v.author}</div>`;
+      inner_ul.appendChild(inner_li_2);
+    })
+  })
+  return inner_ul;
+}
+
+function fetchDownloads_original() {
+  fetch("./assets/data/downloads.json")
+    .then((response) => response.json())
+    .then((data) => {
+      
+      // clear the section before adding elements
+      const container_nav = document.getElementById("myTab");
+      const container_tabPanel = document.getElementById("myTabContent");
+      container_nav.innerHTML = "";
+      container_tabPanel.innerHTML = "";
+
+      const ul = document.getElementById("myTab");
+      const tabContent = document.getElementById("myTabContent");
+
+      const arrayProps = findArrayProperties(data);
+
+      var ctr = 0;
+      arrayProps.forEach((arr) => {
+        ctr++;
+        var arrayName = arr.path;
+        var arrayValue = arr.value;
+
+        //------------------
+        // SET NAV MENU BAR
+        //------------------
+
+        var li = document.createElement("li");
+        li.className = "nav-item";
+        li.setAttribute("role", "presentation");
+
+        var btn = document.createElement("button");
+        btn.innerHTML = toProperCase(arrayName);
+        btn.className = "nav-link";
+        btn.setAttribute("id", `${arrayName}-tab`);
+        btn.setAttribute("data-bs-toggle", "tab");
+        btn.setAttribute("data-bs-target", `#${arrayName}-1`);
+        btn.setAttribute("aria-controls", `#${arrayName}-1`);
+        btn.setAttribute("type", "button");
+        btn.setAttribute("role", "tab");
+        btn.setAttribute("aria-selected", "true");
+        if (ctr == 1) {
+          btn.classList.add("active");
+        }
+
+        li.appendChild(btn);
+
+        //-----------------------------
+        // SET TAB CONTENT FOR THE MENU
+        //--------------------------------
+        const div = document.createElement("div");
+
+        div.classList.add("tab-pane", "fade");
+
+        div.setAttribute("id", `${arrayName}-1`);
+        div.setAttribute("role", "tabpanel");
+        div.setAttribute("aria-labelledby", `#${arrayName}-tab`);
+        if (ctr == 1) {
+          div.classList.add("fade", "show", "active");
+        }
+
+        const div_ul = document.createElement("ul");
+        div_ul.setAttribute("id", `${arrayName}-ul`);
+        div_ul.className = "inner_ul";
+
+        // arrayValue.forEach((v)=>{
+        //   const inner_li = document.createElement("li");
+        //   li.innerHTML = v.name;
+        //   div_ul.appendChild(inner_li);
+        //   console.log(`${v.name} ${v.author}`);
+        // });
+
+        div.appendChild(div_ul);
+
+        tabContent.appendChild(div);
+        ul.appendChild(li);
+
+        var tabUl = document.getElementById(`${arrayName}-ul`);
+
+        arrayValue.forEach((v) => {
+          const inner_li = document.createElement("li");
+          // const inner_link = document.createElement("a");
+          // inner_link.setAttribute("href",v.link);
+          // inner_link.setAttribute("target","_blank");
+          // inner_link.innerHTML = `${v.name}<br/>${v.author}`;
+          inner_li.innerHTML = `<a href='${v.link}' target='_blank'>${v.name}</a><div class='author-name'>${v.author}</div>`;
+          //inner_li.appendChild(inner_link);
+
+          tabUl.appendChild(inner_li);
+          //li.innerHTML = v.name;
+          //div_ul.appendChild(inner_li);
+          //console.log(`${v.name} ${v.author}`);
+        });
+      });
     })
     .catch((error) => {
       document.getElementById("page-title").innerHTML =
@@ -236,4 +353,17 @@ function findArrayProperties(obj, parentPath = "") {
 
   recurse(obj, parentPath);
   return result;
+}
+
+//https://api.tsdcollege.in/api/College/Staffs
+function loadData(page, id) {
+  fetch("https://api.tsdcollege.in/api/College/Staffs")
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+}
+
+function toProperCase(str) {
+  return str.toLowerCase().replace(/\b\w/g, function (char) {
+    return char.toUpperCase();
+  });
 }

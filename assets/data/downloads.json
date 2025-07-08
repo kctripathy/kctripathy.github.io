@@ -1,73 +1,152 @@
 {
   "title": "My Downloads",
-  "ayurveda": [
-    {
-      "name": "Drabyaguna Kalpadruma",
-      "author": "Dr. Brajabandhu Tripathy",
-      "link": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
-    },
-    {
-      "name": "Anubhuta Jogamala o Sahaja Chikitsa",
-      "author": "Dr. Laxmana Mishra",
-      "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
-    }
-  ],
-  "music": [
-    {
-      "name": "Playing Guitar A Beginner's Guide",
-      "author": "Darrin Koltow",
-      "link": "./assets/downloads/PlayingGuitarABeginnerGuide.pdf"
-    },
-    {
-      "name": "Chords & Scales For Guitar",
-      "author": "Blaky Neely and Jeff Schroed",
-      "link": "./assets/downloads/Chords & Scales For Guitar.pdf"
-    }
-  ],
   "books": [
     {
-      "name": "Inside Mind of Winners",
-      "author": "Charles Burke",
-      "link": "./assets/downloads/Inside-Mind-of-Winners.pdf"
-    },
-    {
-      "name": "Rich Dad, Poor Dad",
-      "author": "By Robert T. Kiyosaki",
-      "link": "./assets/downloads/rich-dad-poor-dad.pdf"
-    },
-    {
-      "name": "Chandamama Coffee Table Book",
-      "author": "Chandamama Publication",
-      "link": "./assets/downloads/Chandamama_CoffeeTableBook.pdf"
-    },
-    {
-      "name": "Premchandnka Galpamala",
-      "author": "Radhakrisna",
-      "link": "https://drive.google.com/file/d/1giWuWJGZ-P8K_tFuDQ8YlObzAWW12MHK/view?usp=drive_link"
+      "ayurveda": [
+        {
+          "name": "Drabyaguna Kalpadruma",
+          "author": "Dr. Brajabandhu Tripathy",
+          "link": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
+        },
+        {
+          "name": "Anubhuta Sahaja Chikitsa",
+          "author": "Dr. Laxmana Mishra",
+          "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
+        },
+        {
+          "name": "Gachha Baida (ଗଛ ବଇଦ)",
+          "author": "Sri Nikhil Mohan Pattanaik",
+          "link": "https://drive.google.com/file/d/14qN7RD4px_C0Juuw2Rp394ZzrFezlO9j/view?usp=drive_link"
+        }
+      ],
+      "literature (ଓଡ଼ିଆ ସାହିତ୍ୟ)": [
+        {
+          "name": "Desha Kala Patra (ଦେଶ କାଳ ପାତ୍ର)",
+          "author": "Jagannath Prasad Das",
+          "link": "https://drive.google.com/file/d/10WQYSoYU1iRf4gHHbpwTzHaaytTnKkLh/view?usp=drive_link"
+        },
+        {
+          "name": "ମଶାଣି ର ଫୁଲ ଓ ଅନ୍ୟାନ୍ୟ ଗଳ୍ପ",
+          "author": "ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ ",
+          "link": "https://drive.google.com/file/d/1raiogp0bmSE6qqEgh6MiNH0HDZxlmOBV/view?usp=drive_link"
+        },
+        {
+          "name": "ପ୍ରେମଚାନ୍ଦ ଙ୍କ ଗଳ୍ପ ମାଳା",
+          "author": "ମୁନସୀ ପ୍ରେମଚାନ୍ଦ -> ଗୋଲୋକ ବିହାରୀ ଧଳ ",
+          "link": "https://drive.google.com/file/d/1jdDVvTibM4Dbm-p03PHO2kkuuAwJZ6Lc/view?usp=sharing"
+        }
+      ],
+      "literature (English)": [
+        {
+          "name": "Inside Mind of Winners",
+          "author": "Charles Burke",
+          "link": "./assets/downloads/Inside-Mind-of-Winners.pdf"
+        },
+        {
+          "name": "Rich Dad, Poor Dad",
+          "author": "Robert T. Kiyosaki",
+          "link": "./assets/downloads/rich-dad-poor-dad.pdf"
+        },
+        {
+          "name": "Chandamama Coffee Table Book",
+          "author": "Chandamama Publication",
+          "link": "./assets/downloads/Chandamama_CoffeeTableBook.pdf"
+        },
+        {
+          "name": "Short Stories",
+          "author": "Sachi Raut Ray",
+          "link": "https://drive.google.com/file/d/11A5fHLEgSNGDaoruR16S_qWTGRBLC2xd/view?usp=sharing"
+        },
+        {
+          "name": "Forbidden Street and Other Stories",
+          "author": "JP Das",
+          "link": "https://drive.google.com/file/d/1W11auxavQWgGJpgZ4sUz6Ul964CGZ5Or/view?usp=drive_link"
+        }
+
+        
+        
+      ]
     }
- 
+  ],
+
+  "music": [
+    {
+      "ayurveda": [
+        {
+          "name": "ayurvedaDrabyaguna Kalpadruma",
+          "author": "Dr. Brajabandhu Tripathy",
+          "link": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
+        },
+        {
+          "name": "ayurvedaAnubhuta Joga o Sahaja Chikitsa",
+          "author": "Dr. Laxmana Mishra",
+          "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
+        }
+      ],
+      "literature": [
+        {
+          "name": "literatureDrabyaguna Kalpadruma",
+          "author": "Dr. Brajabandhu Tripathy",
+          "link": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
+        },
+        {
+          "name": "Anubhuta Joga o Sahaja Chikitsa",
+          "author": "Dr. Laxmana Mishra",
+          "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
+        }
+      ],
+      "story": [
+        {
+          "name": "storyDrabyaguna Kalpadruma",
+          "author": "Dr. Brajabandhu Tripathy",
+          "link": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
+        },
+        {
+          "name": "Anubhuta Joga o Sahaja Chikitsa",
+          "author": "Dr. Laxmana Mishra",
+          "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
+        }
+      ]
+    }
   ],
   "lyrics": [
     {
-      "name": "lyrics Inside Mind of Winners",
-      "author": "Charles Burke",
-      "link": "./assets/downloads/Inside-Mind-of-Winners.pdf"
-    },
-    {
-      "name": "lyrics Rich Dad, Poor Dad",
-      "author": "By Robert T. Kiyosaki",
-      "link": "./assets/downloads/rich-dad-poor-dad.pdf"
-    },
-    {
-      "name": "lyrics Chandamama Coffee Table Book",
-      "author": "Chandamama Publication",
-      "link": "./assets/downloads/Chandamama_CoffeeTableBook.pdf"
-    },
-    {
-      "name": "Premchandnka Galpamala",
-      "author": "Radhakrisna",
-      "link": "https://drive.google.com/file/d/1giWuWJGZ-P8K_tFuDQ8YlObzAWW12MHK/view?usp=drive_link"
+      "ayurveda": [
+        {
+          "name": "ayurvedaDrabyaguna Kalpadruma",
+          "author": "Dr. Brajabandhu Tripathy",
+          "link": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
+        },
+        {
+          "name": "ayurvedaAnubhuta Joga o Sahaja Chikitsa",
+          "author": "Dr. Laxmana Mishra",
+          "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
+        }
+      ],
+      "literature": [
+        {
+          "name": "literatureDrabyaguna Kalpadruma",
+          "author": "Dr. Brajabandhu Tripathy",
+          "link": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
+        },
+        {
+          "name": "Anubhuta Joga o Sahaja Chikitsa",
+          "author": "Dr. Laxmana Mishra",
+          "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
+        }
+      ],
+      "story": [
+        {
+          "name": "storyDrabyaguna Kalpadruma",
+          "author": "Dr. Brajabandhu Tripathy",
+          "link": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
+        },
+        {
+          "name": "Anubhuta Joga o Sahaja Chikitsa",
+          "author": "Dr. Laxmana Mishra",
+          "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
+        }
+      ]
     }
- 
   ]
 }

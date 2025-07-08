@@ -48,8 +48,12 @@
     <link rel="stylesheet" href="myStyle.css" />
     <script src="myScript.js"></script>
     <script>
-      loadHTML('home', 'home-page');
-      fetchDownloads2();
+      loadHTML("home", "home-page");
+      loadHTML("footer", "footer");
+      
+      //loadData();
+      //fetchDownloads2();
+      //fetchProjects();
     </script>
   </head>
 
@@ -127,7 +131,7 @@
         <div id="project-list"></div>
       </section>
 
-      <section id="downloads" class="d-none">
+      <!-- <section id="downloads" class="d-none">
         <h4 class="sub-title">Downloads</h4>
         <div class="divider-2"></div>
         <div class="row">
@@ -136,7 +140,18 @@
           </div>
         </div>
         <div class="row m-2" id="download-list"></div>
-      </section>
+      </section> -->
+
+      <!-- <section id="downloads-2" class="d-none">
+        <h4 class="sub-title">Downloads</h4>
+        <div class="divider-2"></div>
+        <div class="row">
+          <div class="col-12">
+            <a href="./assets/downloads/resume.pdf">My Latest Resume</a>
+          </div>
+        </div>
+        <div class="row m-2" id="download-list-2"></div>
+      </section> -->
 
       <section id="gallery" class="d-none" style="height: 60vh">
         <h4 class="sub-title">Gallery</h4>
@@ -144,76 +159,26 @@
       </section>
 
       <section id="contact" class="d-none">
-        <h4 class="sub-title">Let's Connect</h4>
-        <div class="divider-2"></div>
-        <p>Address: BD Pur (Sasan), Ganjam, Odisha, 761120</p>
-        <!-- <div class="divider-2"></div> -->
-        <p>Phone: <a href="tel:+919938046866">+91 9938046866</a></p>
-        <p>
-          Email: <a href="mailto:kctripathy@gmail.com">kctripathy@gmail.com</a>
-        </p>
+        <div id="contact-page"></div>
+      </section>
+
+      <section id="downloads" class="d-none">
+        <h4 class="sub-title">Downloads</h4>
         <div class="divider-2"></div>
 
-        <p>
-          Github:
-          <a href="https://github.com/kctripathy" target="_blank"
-            >github.com/kctripathy</a
-          >
-        </p>
-        <p>
-          LinkedIn:
-          <a href="https://linkedin.com/in/kctripathy" target="_blank"
-            >linkedin.com/in/kctripathy</a
-          >
-        </p>
-        <p>
-          Twitter:
-          <a href="https://x.com/KishorTripathy" target="_blank"
-            >x.com/KishorTripathy</a
-          >
-        </p>
-        <p>
-          YouTube:
-          <a href="https://youtube.com/@kctripathy" target="_blank"
-            >youtube.com/@kctripathy</a
-          >
-        </p>
+        <a id="my-resume" href="./assets/downloads/resume.pdf" target="_blank">Download My Resume</a>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+        </ul>
+
+        <!-- Tab content -->
+        <div class="tab-content border border-top-0 p-3" id="myTabContent">
+        </div>
       </section>
     </main>
 
-    <div class="kt-footer bg-light">
-      <ul id="footer-social-icons">
-        <li>
-          <a href="https://github.com/kctripathy" target="_blank"
-            ><i class="bi bi-github text-secondary"></i>
-            <span class="social-media-text">Github</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/kctripathy" target="_blank"
-            ><i class="bi bi-youtube text-danger"></i>
-            <span class="social-media-text">YouTube</span></a
-          >
-        </li>
-        <li>
-          <a href="https://www.facebook.com/kishorctripathy" target="_blank"
-            ><i class="bi bi-facebook"></i>
-            <span class="social-media-text">Facebook</span></a
-          >
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/kctripathy"
-            ><i class="bi bi-linkedin"></i>
-            <span class="social-media-text">LinkedIn</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://x.com/KishorTripathy" target="_blank"
-            ><i class="bi bi-twitter-x text-secondary"></i>
-            <span class="social-media-text">Twitter(X)</span>
-          </a>
-        </li>
-      </ul>
+    <div id="footer" class="kt-footer bg-light">
+ 
     </div>
   </body>
 </html>

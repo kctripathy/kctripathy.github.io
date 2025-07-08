@@ -18,7 +18,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* background-position: 100px 5px;  */
-  background-position:center;
+  background-position: center;
 }
 
 header {
@@ -191,11 +191,7 @@ a:hover {
   color: #014129;
 }
 
-.my-photo {
-  border: solid 1px #ccc;
-  padding: 5px;
-  margin-top: 66px;
-}
+
 
 .download-link {
   text-decoration: none;
@@ -230,6 +226,76 @@ a:hover {
   font-weight: bold;
 }
 
+.my-photo {
+  border: solid 1px #ccc;
+  padding: 5px;
+  margin-top: 66px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.my-family-photo {
+  border: solid 1px #ccc;
+  padding: 5px;
+  margin-top: 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+
+/**********************/
+/* TAB NAV BAR - DOWNLOAD */
+#myTabContent {
+  display: block;
+  height: 100vh;
+}
+
+#myTabContent > div > ul > ul,
+ul.inner_ul {
+  list-style-type: none;
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#myTabContent > div > ul > ul > li {
+  width: 33%;
+  float: left;
+  display: block;
+  font-size: 0.9em;
+  padding: 5px 0px;
+  text-align: left;
+}
+
+li.category-li {
+    width: 100% !important;
+    font-weight: bold;
+    height: 14px;
+    padding: 0px 0px 0px 5px !important;
+    border-radius: 10px;
+    margin-top: 10px !important;
+    color: #232424;
+}
+
+li.category-li:first-child {
+  margin-top: 0px !important;
+}
+
+div.author-name {
+  color: rgb(99, 99, 99);
+  margin-top: -5px;
+  font-size: 0.9em;
+}
+
+#my-resume {
+  text-decoration: none;
+}
+/*************************************/
+/****** CSS FOR RESPONSIVE ***********/
+/*************************************/
 @media only screen and (max-width: 600px) {
   .social-media-text {
     display: none;

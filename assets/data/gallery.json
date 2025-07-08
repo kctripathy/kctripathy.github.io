@@ -1,0 +1,36 @@
+{
+  "title": "Gallery",
+  "photo": [
+    {
+      "name": "Drabyaguna Kalpadruma",
+      "caption": "Dr. Brajabandhu Tripathy",
+      "courtesy": "Dr. Brajabandhu Tripathy",
+      "url": "./assets/downloads/DrabyagunaKalpadruma_all.pdf"
+    } 
+  ],
+  "lyrics": [
+    {
+      "name": "Ki ago meeta kede sundara",
+      "caption": "Dr. Brajabandhu Tripathy",
+      "courtesy": "Dr. Brajabandhu Tripathy",
+      "url": "https://photos.google.com/share/AF1QipMSeQg_cFQyO0VM4MTRGyFhoFXpa67QAR-zG_hGkU8JD45tDpGTR4CZZKCxHT6HIw?key=MHBUTHZWck9MQ2dWR20zS3I5LTJfMVkzOVUybXZn"
+    },
+    {
+      "name": "Anubhuta Jogamala o Sahaja Chikitsa",
+      "author": "Dr. Laxmana Mishra",
+      "link": "./assets/downloads/AnubhutaJogamalaSahajaChikitsa.pdf"
+    }
+  ],
+  "video": [
+    {
+      "name": "Playing Guitar A Beginner's Guide",
+      "author": "Darrin Koltow",
+      "link": "./assets/downloads/PlayingGuitarABeginnerGuide.pdf"
+    },
+    {
+      "name": "Chords & Scales For Guitar",
+      "author": "Blaky Neely and Jeff Schroed",
+      "link": "./assets/downloads/Chords & Scales For Guitar.pdf"
+    }
+  ]
+}
