@@ -37,7 +37,6 @@
         }
       ],
       "literature (English)": [
-       
         {
           "name": "Best Short Stories",
           "author": "Sachi Raut Ray",
@@ -80,11 +79,10 @@
           "author": "JP Das",
           "link": "https://drive.google.com/file/d/1W11auxavQWgGJpgZ4sUz6Ul964CGZ5Or/view?usp=drive_link"
         }
-      ]
-,
-      "literature (Bengali)": [
+      ],
+      "literature (বাংলা)": [
         {
-          "name": "Adarsh Hindu Hotel",
+          "name": "আদর্শ হিন্দু হোটেল",
           "author": "Bibhuti Bhusan Cahtopadhyaya",
           "link": "https://archive.org/download/in.ernet.dli.2015.286981/2015.286981.Adarsh-Hindu.pdf"
         },
@@ -92,10 +90,46 @@
           "name": "Ashapurna Devi Collection",
           "author": "আশাপূর্ণা  দেবী",
           "link": "https://archive.org/compress/ashapurna-devi/formats=IMAGE%20CONTAINER%20PDF,TEXT%20PDF&file=/ashapurna-devi.zip"
-        } 
+        }
       ]
-
-      
+    }
+  ],
+  "music": [
+    {
+      "folk-music-odia (MP3)": [
+        {
+          "name": "Radha Prema Leela",
+          "author": "Guru Sri Surendra Sahu",
+          "link": "./assets/downloads/music/rpl.rar"
+        },
+        {
+          "name": "Prahallada Nataka",
+          "author": "Guru Sri Prafulla Sethi",
+          "link": "./assets/downloads/music/nataka.rar"
+        },
+        {
+          "name": "Bharata Leela",
+          "author": "-",
+          "link": "./assets/downloads/music/bl.rar"
+        }
+      ],
+      "light-music-odia (MP3)": [
+        {
+          "name": "Nupura Bajaye Kiye...",
+          "author": "Guru Sri Raghunath Panigrahi",
+          "link": "./assets/downloads/music/nupura_bajaye_kiye.rar"
+        },
+         {
+          "name": "Kebe Jadi Asa Tume ...",
+          "author": "Guru Sri Raghunath Panigrahi",
+          "link": "./assets/downloads/music/kebe_jadi.rar"
+        },
+         {
+          "name": "Mu Je Abhinaya Kari Pareni...",
+          "author": "Guru Sri Raghunath Panigrahi",
+          "link": "./assets/downloads/music/mu_je.rar"
+        }
+      ]
     }
   ]
 }

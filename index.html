@@ -48,17 +48,15 @@
     <link rel="stylesheet" href="myStyle.css" />
     <script src="myScript.js"></script>
     <script>
+      loadHTML("nav", "menu");
       loadHTML("home", "home-page");
       loadHTML("footer", "footer");
-      
-      //loadData();
-      //fetchDownloads2();
-      //fetchProjects();
+      fetchDownloads();
     </script>
   </head>
 
   <body>
-    <div style="text-align: center">
+    <!-- <div style="text-align: center">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="javascript:showPage('home');"
@@ -114,7 +112,9 @@
           </div>
         </div>
       </nav>
-    </div>
+    </div> -->
+
+    <div id="menu"></div>
 
     <main style="text-align: center">
       <section id="home">
@@ -130,28 +130,6 @@
         <div class="divider-2"></div>
         <div id="project-list"></div>
       </section>
-
-      <!-- <section id="downloads" class="d-none">
-        <h4 class="sub-title">Downloads</h4>
-        <div class="divider-2"></div>
-        <div class="row">
-          <div class="col-12">
-            <a href="./assets/downloads/resume.pdf">My Latest Resume</a>
-          </div>
-        </div>
-        <div class="row m-2" id="download-list"></div>
-      </section> -->
-
-      <!-- <section id="downloads-2" class="d-none">
-        <h4 class="sub-title">Downloads</h4>
-        <div class="divider-2"></div>
-        <div class="row">
-          <div class="col-12">
-            <a href="./assets/downloads/resume.pdf">My Latest Resume</a>
-          </div>
-        </div>
-        <div class="row m-2" id="download-list-2"></div>
-      </section> -->
 
       <section id="gallery" class="d-none" style="height: 60vh">
         <h4 class="sub-title">Gallery</h4>
