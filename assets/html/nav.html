@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:showPage('home');">KC Tripathy</a>
+    <a class="navbar-brand" href="javascript:showPage('home','');">KC Tripathy</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -15,22 +15,54 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="javascript:showPage('home');" >Home</a>
+          <a class="nav-link active" aria-current="page" href="javascript:showPage('home','');" >Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:showPage('about');">About</a>
+          <a class="nav-link" onclick="showPage('about',this);" >About</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="javascript:showPage('projects','');">Projects</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:showPage('gallery','');">Gallery</a>
+        </li>
+        -->
+
+        <li class="nav-item dropdown d-none">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" onclick="showPage('gallery',this);">Code Gallery</a></li>
+                <li><a class="dropdown-item" onclick="showPage('gallery',this);">Photo Gallery</a></li>
+                <li><a class="dropdown-item" onclick="showPage('gallery',this);">Video Gallery</a></li>
+                <li><a class="dropdown-item" onclick="showPage('gallery',this);">Link Gallery</a></li>
+          </ul>
+        </li>
+
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Music
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" onclick="showPage('music',this);" data-tag="raga-songs">Songs based on Raaga</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item  d-none" onclick="showPage('music',this);" data-tag="odia-songs">Evergreen Odia Songs</a></li>
+                <li><a class="dropdown-item  d-none" onclick="showPage('music',this);">Evergreen Hindi Songs</a></li>
+                <div class="dropdown-divider  d-none"></div>
+                <li><a class="dropdown-item  d-none" onclick="showPage('music',this);">Learn Flute</a></li>
+                <li><a class="dropdown-item  d-none" onclick="showPage('music',this);">Learn Hindusthan Classical</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:showPage('downloads','');">Downloads</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:showPage('projects');">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:showPage('gallery');">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:showPage('downloads');">Downloads</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:showPage('contact');">Contact</a>
+          <a class="nav-link" href="javascript:showPage('contact','');">Contact</a>
         </li>
       </ul>
     </div>

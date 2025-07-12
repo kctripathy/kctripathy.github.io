@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Google Drive Slideshow with Thumbnails</title>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+
+
+
+    <script>
+        const mainImage = document.getElementById('main-image');
+        const caption = document.getElementById('image-caption');
+        const thumbnails = document.querySelectorAll('#thumbnails img');
+
+        let currentIndex = 0;
+
+        function showImage(thumb) {
+            thumbnails.forEach(t => t.classList.remove('active'));
+            thumb.classList.add('active');
+            mainImage.src = thumb.src;
+            mainImage.alt = thumb.alt;
+            caption.textContent = thumb.alt;
+            currentIndex = Array.from(thumbnails).indexOf(thumb);
+        }
+
+        // Optional autoplay
+        setInterval(() => {
+            thumbnails[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % thumbnails.length;
+            const nextThumb = thumbnails[currentIndex];
+            nextThumb.classList.add('active');
+            mainImage.src = nextThumb.src;
+            mainImage.alt = nextThumb.alt;
+            caption.textContent = nextThumb.alt;
+        }, 4000);
+    </script>
+
+</body>
+
+</html>

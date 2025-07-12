@@ -1,0 +1,145 @@
+/********  MUSIC *************/
+#myTabContent_music {
+    height: 100%;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#myTabContent_music>div>div>ul>li.form-label-title>ul,
+#myTabContent_music>div>div>ul {
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin: 5px 0px;
+    padding:10px;
+    border-right: solid 1px #ccc;
+    font-weight: normal;
+}
+
+#myTabContent_music>div>div>ul:nth-child(even) {
+    border: none;
+    padding-left: 20px;
+}
+
+#myTabContent_music>div>div>ul>li.form-label-title>ul {
+    margin: -10px 0px 0px 0px !important;
+}
+
+#myTabContent_music>div>div>ul>li.form-label-title>ul>li {
+    margin: 0px !important;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#myTabContent_music>div>div>ul>li.form-label-title>ul>li.inner-link-label {
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#myTabContent_music>div>div>ul>li.form-label-title>ul>li.inner-link-label::after {
+    content: ":- ";
+}
+
+#myTabContent_music>div>div>ul>li.form-label-title>ul>li.inner-link-value {
+    width: 80%;
+}
+.form-label-title::after {
+    content: "...";
+}
+
+
+
+#myTabContent_music>div>div>ul>li {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#myTabContent_music>div>div>ul>li.form-label-image,
+#myTabContent_music>div>div>ul>li.form-label-title {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#myTabContent_music>div>div>ul>li.form-label-link {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 0px 0px 0px 10px;
+}
+
+#myTabContent_music>div>div>ul>li.form-label-image>img {
+    /* position: absolute;
+    margin-top: -125px;
+    right: 0;
+    border: solid 1px #ccc;
+    padding: 10px; */
+    height: 150px;
+}
+
+
+#myTabContent_music>div>div>ul>li.form-label {
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+
+#myTabContent_music>div>div>ul>li.form-label::after {
+    content: ": ";
+}
+
+#myTabContent_music>div>div>ul>li.form-value {
+    display: block;
+    float: left;
+    width: 80%;
+    text-align: left;
+    margin: 0;
+    padding: 0
+}
+
+.inner-link {
+    margin: 0px 5px 0px 0px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.inner-link-text {
+    font-size: 1rem;
+    color: black;
+}
+
+/*************************************/
+/****** CSS FOR RESPONSIVE ***********/
+/*************************************/
+@media only screen and (max-width: 600px) {
+   #myTabContent_music>div>div>ul>li.form-label-title>ul,
+    #myTabContent_music>div>div>ul {
+        list-style-type: none;
+        display: block;
+        float: left;
+        width: 100%;
+        margin: 2px 0px;
+        padding: 5px;
+        border-right: solid 1px #ccc;
+        font-weight: normal;
+    }
+}

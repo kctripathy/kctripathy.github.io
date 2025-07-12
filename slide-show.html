@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap 5 Carousel with Thumbnails</title>
+  <!-- Bootstrap 5.0.2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .carousel-thumb {
+      cursor: pointer;
+    }
+
+    .carousel-thumb img {
+      border: 2px solid transparent;
+      transition: border 0.3s;
+    }
+
+    .carousel-thumb.active img {
+      border: 2px solid #0d6efd;
+    }
+  </style>
+  <link rel="stylesheet" href="myStyle.css" />
+  <script src="myScript.js"></script>
+  <script> loadHTML("nav", "menu"); </script>
+</head>
+
+<body>
+  <div id="menu"></div>
+
+  <div class="container mt-5" style="width: 800px; height: 600px;">
+
+    <a href="index.html">Back to Home</a>
+    <h2 class="text-center mb-4">Gallery</h2>
+
+    <!-- Carousel -->
+    <div id="mainCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/bg-kishor-7.jpg" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/bg-kishor-7.jpg" class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/bg-kishor-7.jpg" class="d-block w-100" alt="Slide 3">
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Thumbnails -->
+    <div class="row text-center">
+      <div class="col-4 carousel-thumb active" data-bs-target="#mainCarousel" data-bs-slide-to="0">
+        <img src="./assets/images/bg-kishor-7.jpg" class="img-fluid">
+      </div>
+      <div class="col-4 carousel-thumb" data-bs-target="#mainCarousel" data-bs-slide-to="1">
+        <img src="./assets/images/bg-kishor-7.jpg" class="img-fluid">
+      </div>
+      <div class="col-4 carousel-thumb" data-bs-target="#mainCarousel" data-bs-slide-to="2">
+        <img src="./assets/images/bg-kishor-7.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // Optional: Update active thumbnail when carousel slides
+    const carousel = document.querySelector('#mainCarousel');
+    const thumbs = document.querySelectorAll('.carousel-thumb');
+
+    carousel.addEventListener('slide.bs.carousel', function (e) {
+      thumbs.forEach((thumb, index) => {
+        thumb.classList.toggle('active', index === e.to);
+      });
+    });
+  </script>
+
+</body>
+
+</html>

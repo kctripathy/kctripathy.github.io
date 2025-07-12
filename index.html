@@ -1,162 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-    <title>
-      Welcome | Kishor Tripathy | Software developer | Web application developer
-      | Angular | C# | .NET8 | SQL Server
-    </title>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <title>
+    Welcome | Kishor Tripathy | Software developer | Web application developer
+    | Angular | C# | .NET8 | SQL Server
+  </title>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-    />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="myStyle.css" />
-    <script src="myScript.js"></script>
-    <script>
-      loadHTML("nav", "menu");
-      loadHTML("home", "home-page");
-      loadHTML("footer", "footer");
-      fetchDownloads();
-    </script>
-  </head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
-  <body>
-    <!-- <div style="text-align: center">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="javascript:showPage('home');"
-            >KC Tripathy</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="javascript:showPage('home');"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:showPage('about');"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:showPage('projects');"
-                  >Projects</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:showPage('gallery');"
-                  >Gallery</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:showPage('downloads');"
-                  >Downloads</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:showPage('contact');"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/myStyle.css" />
+  <link rel="stylesheet" href="./styles/slides.css" />
+  <link rel="stylesheet" href="./styles/music.css" />
 
-    <div id="menu"></div>
+  <script src="/scripts/myScript.js"></script>
+  <script src="/scripts/slides.js"></script>
+  <script>
+    loadHTML("nav", "menu");
+    loadHTML("home", "home-page");
+    loadHTML("footer", "footer");
+    //fetchDownloads();
+  </script>
+</head>
 
-    <main style="text-align: center">
-      <section id="home">
-        <div id="home-page"></div>
-      </section>
+<body>
 
-      <section id="about" class="d-none">
-        <div id="about-page"></div>
-      </section>
+  <div id="menu"></div>
 
-      <section id="projects" class="d-none">
-        <h4 class="sub-title" id="page-title">Projects</h4>
-        <div class="divider-2"></div>
-        <div id="project-list"></div>
-      </section>
+  <main style="text-align: center">
+    <section id="home">
+      <div id="home-page"></div>
+    </section>
 
-      <section id="gallery" class="d-none" style="height: 60vh">
-        <h4 class="sub-title">Gallery</h4>
-        <div class="divider-2"></div>
-      </section>
+    <section id="about" class="d-none">
+      <div id="about-page"></div>
+    </section>
 
-      <section id="contact" class="d-none">
-        <div id="contact-page"></div>
-      </section>
+    <section id="projects" class="d-none">
+      <h4 class="sub-title" id="page-title">Projects</h4>
+      <div class="divider-2"></div>
+      <div id="project-list"></div>
+    </section>
 
-      <section id="downloads" class="d-none">
-        <h4 class="sub-title">Downloads</h4>
-        <div class="divider-2"></div>
 
-        <a id="my-resume" href="./assets/downloads/resume.pdf" target="_blank">Download My Resume</a>
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-        </ul>
 
-        <!-- Tab content -->
-        <div class="tab-content border border-top-0 p-3" id="myTabContent">
-        </div>
-      </section>
-    </main>
 
-    <div id="footer" class="kt-footer bg-light">
- 
-    </div>
-  </body>
+
+
+    <section id="gallery" class="d-none">
+      <h4 class="sub-title">Gallery</h4>
+      <div class="divider-2"></div>
+
+      <div id="thumbnails" class="scrollable-div">
+        <img src="assets/images/nana-bou.jpg" alt="My Beloved Parent" class="active" onclick="showImage(this)">
+        <img src="assets/images/kct.jpg" alt="Mountain view" onclick="showImage(this)">
+        <img src="assets/images/images/flutes.jpg" alt="Calm ocean" onclick="showImage(this)">
+       
+      </div>
+
+      <img id="main-image" src="assets/images/nana-bou.jpg" alt="My Beloved Parent">
+      <div id="image-caption">My Beloved Parent</div>
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs d-none" id="myTab_gallery" role="tablist">
+      </ul>
+
+      <!-- Tab content -->
+      <div class="tab-content border border-top-0 p-3 d-none" id="myTabContent_gallery">
+      </div>
+      <script>runSlides();</script>
+    </section>
+
+    <section id="downloads" class="d-none">
+      <h4 class="sub-title">Downloads</h4>
+      <div class="divider-2"></div>
+
+      <a id="my-resume" href="./assets/downloads/resume.pdf" target="_blank">Download My Resume</a>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+      </ul>
+
+      <!-- Tab content -->
+      <div class="tab-content border border-top-0 p-3" id="myTabContent">
+      </div>
+    </section>
+
+    <section id="music" class="d-none">
+      <h4 class="sub-title">Music</h4>
+      <div class="divider-2"></div>
+      <h4 class="sub-title-2" id="music-sub-title-2"></h4>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" id="myTab_music" role="tablist">
+      </ul>
+
+      <!-- Tab content -->
+      <div class="tab-content border border-top-0 p-3" id="myTabContent_music">
+      </div>
+    </section>
+
+    <section id="contact" class="d-none">
+      <div id="contact-page"></div>
+    </section>
+  </main>
+
+  <div id="footer" class="kt-footer bg-light">
+
+  </div>
+
+  <!-- <script>runSlides();</script> -->
+</body>
+
 </html>

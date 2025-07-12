@@ -1,24 +1,19 @@
-.container {
-  align-content: center;
-  width: 80vw;
-  margin-left: 10vw;
+:root {
+  --brand: #00a86b;
+  --blue: #1e90ff;
+  --white: #ffffff;
 }
 
-.container-fluid {
-  align-content: center;
-  width: 800px;
-}
+
 
 body {
   font-family: Roboto, serif;
   margin: 0;
   background-color: #f4f9ff;
   color: #333;
-  background-image: url("./assets/images/bg-kishor-7.jpg");
+  background-image: url("../assets/images/bg-kishor-7.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  /* background-position: 100px 5px;  */
-  background-position: center;
+  background-size: cover;
 }
 
 header {
@@ -58,6 +53,50 @@ main {
   background-color: white;
 }
 
+.container {
+  align-content: center;
+  width: 80vw;
+  margin-left: 10vw;
+}
+
+.container-fluid {
+  align-content: center;
+  width: 800px;
+}
+
+
+section {
+  align-content: center;
+  text-align: center;
+}
+
+
+h4 {
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 10px 0px 0px 0px;
+}
+
+h5 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+a {
+  color: #0027a8;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #014129;
+}
+
+
+/*************************************/
 .kt-footer {
   position: fixed;
   bottom: 0px;
@@ -66,11 +105,6 @@ main {
   font-size: 0.9rem;
   padding: 10px 0px;
   border-top: solid 1px #ccc;
-}
-
-section {
-  align-content: center;
-  text-align: center;
 }
 
 ul#footer-social-icons {
@@ -95,11 +129,7 @@ ul#footer-social-icons li.label {
 }
 
 /* You can add global styles to this file, and also import other style files */
-h4 {
-  font-size: 1.2rem;
-  padding: 0;
-  margin: 10px 0px 0px 0px;
-}
+
 
 h4.sub-title {
   font-size: 1.25rem;
@@ -108,10 +138,15 @@ h4.sub-title {
   margin: 5px 0px 5px 0px;
 }
 
-h5 {
-  font-size: 1.2rem;
-  margin-top: 20px;
+h4.sub-title-2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0px 0px 5px 0px;
+  color: var(--brand);
 }
+
+
 
 .divider {
   margin: 10px 0px;
@@ -141,9 +176,7 @@ h5 {
   color: #00a86b;
 }
 
-i {
-  margin-right: 10px;
-}
+
 
 .title-summary {
   display: none I !important;
@@ -180,15 +213,6 @@ li.topic-value {
 
 .big-icon {
   font-size: 1.54rem;
-}
-
-a {
-  color: #0027a8;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #014129;
 }
 
 
@@ -245,11 +269,13 @@ a:hover {
 
 /**********************/
 /* TAB NAV BAR - DOWNLOAD */
+#myTabContent_gallery,
 #myTabContent {
   display: block;
   height: 100vh;
 }
 
+#myTabContent_gallery > div > ul > ul,
 #myTabContent > div > ul > ul,
 ul.inner_ul {
   list-style-type: none;
@@ -261,6 +287,7 @@ ul.inner_ul {
   background-color: white;
 }
 
+#myTabContent_gallery > div > ul > ul > li,
 #myTabContent > div > ul > ul > li {
   width: 33%;
   float: left;
@@ -298,6 +325,16 @@ div.author-name {
 #my-resume {
   text-decoration: none;
 }
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: solid 1px #ccc;
+} */
+
+
 /*************************************/
 /****** CSS FOR RESPONSIVE ***********/
 /*************************************/
