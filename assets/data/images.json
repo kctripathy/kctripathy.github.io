@@ -41,6 +41,7 @@
       } 
     ]
   },
+  
   {
     "category": "parent",
     "images": [
@@ -184,25 +185,42 @@
     ]
   },
   {
-    "category": "mukul",
-    "images": [
-      {
-        "name": "kctr_31",
-        "url": "./assets/images/myphotos\\mukul\\kctr_31.jpg"
-      },
-      {
-        "name": "kctr_32",
-        "url": "./assets/images/myphotos\\mukul\\kctr_32.jpg"
-      },
-      {
-        "name": "kctr_33",
-        "url": "./assets/images/myphotos\\mukul\\kctr_33.jpg"
-      }
-    ]
-  },
-  {
     "category": "myself",
     "images": [
+      {
+        "name": "Just Matriculated @ 1988",
+        "url": "./assets/images/myphotos\\Passphoto\\kctr_1078.jpg"
+      },
+      {
+        "name": "After graduation (1993)",
+        "url": "./assets/images/myphotos\\Passphoto\\kctr_1079.jpg"
+      },
+      {
+        "name": "In Bhubaneswar (1995)",
+        "url": "./assets/images/myphotos\\Passphoto\\kctr_1080.jpg"
+      },
+      {
+        "name": "kctr_1081.jpg",
+        "url": "./assets/images/myphotos\\Passphoto\\kctr_1081.jpg"
+      },
+      
+      
+      {
+        "name": "kctr_1084.jpg",
+        "url": "./assets/images/myphotos\\Passphoto\\kctr_1084.jpg"
+      },
+      {
+        "name": "kctr_1085.jpg",
+        "url": "./assets/images/myphotos\\Passphoto\\kctr_1085.jpg"
+      },
+      {
+        "name": "kctr_1086.jpg",
+        "url": "./assets/images/myphotos\\Passphoto\\kctr_1086.jpg"
+      },
+      {
+        "name": "@Dubai - 2010",
+        "url": "./assets/images/myphotos\\Passphoto\\kctr_1083.JPG"
+      },
       {
         "name": "kctr_42",
         "url": "./assets/images/myphotos\\myself\\kctr_42.jpg"
@@ -229,6 +247,343 @@
       {
         "name": "kctr_43",
         "url": "./assets/images/myphotos\\myself\\kctr_43.jpg"
+      },
+      {
+        "name": "kctr_1082.JPG",
+        "url": "./assets/images/myphotos\\Passphoto\\kctr_1082.JPG"
+      }
+    ]
+  },
+  {
+    "category": "at dubai",
+    "images": [
+      {
+        "name": "kctr_1087.JPG",
+        "url": "./assets/images/myphotos\\we-were-at-dubai\\kctr_1087.JPG"
+      },
+      {
+        "name": "kctr_1088.JPG",
+        "url": "./assets/images/myphotos\\we-were-at-dubai\\kctr_1088.JPG"
+      },
+      {
+        "name": "kctr_1089.JPG",
+        "url": "./assets/images/myphotos\\we-were-at-dubai\\kctr_1089.JPG"
+      },
+      {
+        "name": "kctr_1090.JPG",
+        "url": "./assets/images/myphotos\\we-were-at-dubai\\kctr_1090.JPG"
+      },
+      {
+        "name": "kctr_1091.JPG",
+        "url": "./assets/images/myphotos\\we-were-at-dubai\\kctr_1091.JPG"
+      },
+      {
+        "name": "kctr_1092.jpg",
+        "url": "./assets/images/myphotos\\we-were-at-dubai\\kctr_1092.jpg"
+      },
+     
+       
+      {
+        "name": "kctr_1004.jpg",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1004.jpg"
+      },
+      {
+        "name": "kctr_1005.JPG",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1005.JPG"
+      },
+      {
+        "name": "kctr_1006.JPG",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1006.JPG"
+      },
+      {
+        "name": "kctr_1007.jpg",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1007.jpg"
+      },
+      {
+        "name": "kctr_1008.jpg",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1008.jpg"
+      },
+      {
+        "name": "kctr_1009.jpg",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1009.jpg"
+      },
+      {
+        "name": "kctr_1010.JPG",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1010.JPG"
+      },
+      {
+        "name": "kctr_1011.JPG",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1011.JPG"
+      },
+      {
+        "name": "kctr_1012.JPG",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1012.JPG"
+      },
+      {
+        "name": "kctr_1013.JPG",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1013.JPG"
+      },
+      {
+        "name": "kctr_1014.JPG",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1014.JPG"
+      },
+      {
+        "name": "kctr_1015.JPG",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1015.JPG"
+      },
+      {
+        "name": "kctr_1016.jpg",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1016.jpg"
+      },
+      {
+        "name": "kctr_1017.JPG",
+        "url": "./assets/images/myphotos\\couple-photo\\kctr_1017.JPG"
+      }
+    ]
+  },
+  {
+    "category": "lilu",
+    "images": [
+      {
+        "name": "kctr_1018.jpg",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1018.jpg"
+      },
+      {
+        "name": "kctr_1019.jpg",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1019.jpg"
+      },
+      {
+        "name": "kctr_1020.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1020.JPG"
+      },
+      {
+        "name": "kctr_1021.jpg",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1021.jpg"
+      },
+      {
+        "name": "kctr_1022.jpg",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1022.jpg"
+      },
+      {
+        "name": "kctr_1023.jpg",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1023.jpg"
+      },
+      {
+        "name": "kctr_1024.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1024.JPG"
+      },
+      {
+        "name": "kctr_1026.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1026.JPG"
+      },
+      {
+        "name": "kctr_1027.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1027.JPG"
+      },
+      {
+        "name": "kctr_1028.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1028.JPG"
+      },
+      {
+        "name": "kctr_1029.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1029.JPG"
+      },
+      {
+        "name": "kctr_1030.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1030.JPG"
+      },
+      {
+        "name": "kctr_1031.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1031.JPG"
+      },
+       
+      {
+        "name": "kctr_1033.jpg",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1033.jpg"
+      },
+      {
+        "name": "kctr_1034.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1034.JPG"
+      },
+      {
+        "name": "kctr_1035.JPG",
+        "url": "./assets/images/myphotos\\lilu\\kctr_1035.JPG"
+      }
+    ]
+  },
+  {
+    "category": "mukul",
+    "images": [
+      {
+        "name": "kctr_1036.jpg",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1036.jpg"
+      },
+      {
+        "name": "kctr_1037.jpg",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1037.jpg"
+      },
+      {
+        "name": "kctr_1038.JPG",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1038.JPG"
+      },
+      {
+        "name": "kctr_1039.JPG",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1039.JPG"
+      },
+      {
+        "name": "kctr_1040.JPG",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1040.JPG"
+      },
+      {
+        "name": "kctr_1041.JPG",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1041.JPG"
+      },
+      {
+        "name": "kctr_1042.JPG",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1042.JPG"
+      },
+      {
+        "name": "kctr_1043.jpeg",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1043.jpeg"
+      },
+      {
+        "name": "kctr_1044.jpeg",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1044.jpeg"
+      },
+      {
+        "name": "kctr_1045.jpeg",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1045.jpeg"
+      },
+      {
+        "name": "kctr_1046.jpg",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1046.jpg"
+      },
+      {
+        "name": "kctr_1047.jpg",
+        "url": "./assets/images/myphotos\\mukul\\kctr_1047.jpg"
+      }
+    ]
+  },
+  {
+    "category": "my-family",
+    "images": [
+      {
+        "name": "kctr_31",
+        "url": "./assets/images/myphotos\\mukul\\kctr_31.jpg"
+      },
+      {
+        "name": "kctr_32",
+        "url": "./assets/images/myphotos\\mukul\\kctr_32.jpg"
+      },
+      {
+        "name": "kctr_33",
+        "url": "./assets/images/myphotos\\mukul\\kctr_33.jpg"
+      },
+      {
+        "name": "kctr_1048.jpg",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1048.jpg"
+      },
+      {
+        "name": "kctr_1049.jpg",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1049.jpg"
+      },
+      {
+        "name": "kctr_1050.jpg",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1050.jpg"
+      },
+      {
+        "name": "kctr_1051.jpg",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1051.jpg"
+      },
+      {
+        "name": "kctr_1052.jpg",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1052.jpg"
+      },
+      {
+        "name": "kctr_1053.JPG",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1053.JPG"
+      },
+      {
+        "name": "kctr_1054.JPG",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1054.JPG"
+      },
+      {
+        "name": "kctr_1055.JPG",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1055.JPG"
+      },
+      {
+        "name": "kctr_1056.JPG",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1056.JPG"
+      }
+    ]
+  },
+  {
+    "category": "my-in-law-family",
+    "images": [
+      {
+        "name": "My in-laws (father & mother)",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1057.JPG"
+      },
+      {
+        "name": "kctr_1058.JPG",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1058.JPG"
+      },
+      {
+        "name": "Brother in laws",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1059.JPG"
+      },
+      {
+        "name": "Brother in laws",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1060.JPG"
+      },
+      {
+        "name": "kctr_1061.jpeg",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1061.jpeg"
+      }
+    ]
+  },
+  {
+    "category": "my-marriage-photo",
+    "images": [
+      {
+        "name": "kctr_1062.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1062.JPG"
+      },
+      {
+        "name": "kctr_1063.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1063.JPG"
+      },
+      {
+        "name": "kctr_1064.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1064.JPG"
+      },
+      {
+        "name": "kctr_1065.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1065.JPG"
+      },
+      {
+        "name": "kctr_1066.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1066.JPG"
+      },
+      {
+        "name": "kctr_1067.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1067.JPG"
+      },
+      {
+        "name": "kctr_1068.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1068.JPG"
+      },
+      {
+        "name": "kctr_1069.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1069.JPG"
+      },
+      {
+        "name": "kctr_1070.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1070.JPG"
+      },
+      {
+        "name": "kctr_1071.JPG",
+        "url": "./assets/images/myphotos\\my-marriage-photo\\kctr_1071.JPG"
       }
     ]
   },
@@ -243,9 +598,16 @@
         "name": "Landa Bhaina & Me",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_54.jpg"
       },
-      
       {
-        "name": "My Best Teacher",
+        "name": "With Trilochan & Sushant",
+        "url": "./assets/images/myphotos\\near-an-dears\\kctr_1076.JPG"
+      },
+      {
+        "name": "With Tulu & Baladev",
+        "url": "./assets/images/myphotos\\near-an-dears\\kctr_1077.JPG"
+      },
+      {
+        "name": "With My Best Teacher, Umesh Sir",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_55.jpg"
       },
       {
@@ -280,7 +642,44 @@
       }
       
     ]
+  },
+  {
+    "category": "at-micro",
+    "images": [
+      {
+        "name": "With Directors of Micro Finance",
+        "url": "./assets/images/myphotos\\at-micro\\kctr_1001.jpg"
+      },
+      {
+        "name": "kctr_1002.jpg",
+        "url": "./assets/images/myphotos\\at-micro\\kctr_1002.jpg"
+      }
+    ]
+  },
+  
+  {
+    "category": "my-village",
+    "images": [
+      {
+        "name": "kctr_1072.JPG",
+        "url": "./assets/images/myphotos\\my-village\\kctr_1072.JPG"
+      },
+      {
+        "name": "kctr_1073.JPG",
+        "url": "./assets/images/myphotos\\my-village\\kctr_1073.JPG"
+      },
+      {
+        "name": "kctr_1074.jpg",
+        "url": "./assets/images/myphotos\\my-village\\kctr_1074.jpg"
+      },
+      {
+        "name": "kctr_1075.jpg",
+        "url": "./assets/images/myphotos\\my-village\\kctr_1075.jpg"
+      }
+    ]
   }
+  
+  
   
   
 ]

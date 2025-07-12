@@ -555,7 +555,7 @@ fetch('./assets/data/images.json')
 
         data.forEach(group => {
           const title = document.createElement("h4");
-          title.textContent = group.category;
+          title.textContent = toProperCase(group.category).replace(/-/g, " ");
           title.className = "sub-title-2"
           container.appendChild(title);
 
@@ -577,7 +577,7 @@ fetch('./assets/data/images.json')
 
             const caption = document.createElement("div");
             caption.className = "caption";
-            caption.textContent = img.name;
+            caption.textContent = toProperCase(img.name).replace("-"," ");
 
             item.appendChild(imageEl);
             item.appendChild(caption);
