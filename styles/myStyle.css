@@ -352,3 +352,31 @@ div.author-name {
     display: block;
   }
 }
+
+/************************* gallery ***************/
+ .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .gallery-item {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 8px;
+      text-align: center;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      max-height: 120px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .caption {
+      margin-top: 5px;
+      font-size: 13px;
+      color: #666;
+      display: none;
+    }

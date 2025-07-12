@@ -22,7 +22,7 @@ function showPage(pageName, element) {
   } else if (pageName == "music") {
     showMusicPage(element);
   } else if (pageName == "gallery") {
-
+    showGallery(element);
   } else if (pageName == "projects") {
     fetchProject();
   } else if (pageName == "contact") {
@@ -545,3 +545,49 @@ function traverseJson(obj, indent = "") {
   }
 }
 */
+
+function showGallery(element) {
+fetch('./assets/data/images.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("gallery-container");
+        container.innerHTML = ""; // clear 'Loading...'
+
+        data.forEach(group => {
+          const title = document.createElement("h4");
+          title.textContent = group.category;
+          title.className = "sub-title-2"
+          container.appendChild(title);
+
+          const gallery = document.createElement("div");
+          gallery.className = "gallery";
+
+          group.images.forEach(img => {
+            const item = document.createElement("div");
+            item.className = "gallery-item";
+
+            const imageEl = document.createElement("img");
+            imageEl.src = img.url.replace(/\\/g, '/'); // convert backslashes to slashes
+            imageEl.alt = img.name;
+            imageEl.onerror = () => {
+              imageEl.style.display = "none";
+              item.innerHTML += `<div style="color:red">Image not found</div>`;
+            };
+
+            const caption = document.createElement("div");
+            caption.className = "caption";
+            caption.textContent = img.name;
+
+            item.appendChild(imageEl);
+            item.appendChild(caption);
+            gallery.appendChild(item);
+          });
+
+          container.appendChild(gallery);
+        });
+      })
+      .catch(err => {
+        document.getElementById("gallery-container").innerText = "Failed to load images.json";
+        console.error(err);
+      });
+}
