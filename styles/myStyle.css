@@ -4,8 +4,6 @@
   --white: #ffffff;
 }
 
-
-
 body {
   font-family: Roboto, serif;
   margin: 0;
@@ -64,12 +62,10 @@ main {
   width: 800px;
 }
 
-
 section {
   align-content: center;
   text-align: center;
 }
-
 
 h4 {
   font-size: 1.2rem;
@@ -94,7 +90,6 @@ a {
 a:hover {
   color: #014129;
 }
-
 
 /*************************************/
 .kt-footer {
@@ -130,7 +125,6 @@ ul#footer-social-icons li.label {
 
 /* You can add global styles to this file, and also import other style files */
 
-
 h4.sub-title {
   font-size: 1.25rem;
   font-weight: 600;
@@ -145,8 +139,6 @@ h4.sub-title-2 {
   margin: 0px 0px 5px 0px;
   color: var(--brand);
 }
-
-
 
 .divider {
   margin: 10px 0px;
@@ -175,8 +167,6 @@ h4.sub-title-2 {
   /*font-weight: bold !important;*/
   color: #00a86b;
 }
-
-
 
 .title-summary {
   display: none I !important;
@@ -215,8 +205,6 @@ li.topic-value {
   font-size: 1.54rem;
 }
 
-
-
 .download-link {
   text-decoration: none;
 }
@@ -254,7 +242,7 @@ li.topic-value {
   border: solid 1px #ccc;
   padding: 5px;
   margin-top: 66px;
-   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .my-family-photo {
@@ -263,9 +251,6 @@ li.topic-value {
   margin-top: 0px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
-
-
 
 /**********************/
 /* TAB NAV BAR - DOWNLOAD */
@@ -298,13 +283,13 @@ ul.inner_ul {
 }
 
 li.category-li {
-    width: 100% !important;
-    font-weight: bold;
-    height: 14px;
-    padding: 0px 0px 0px 5px !important;
-    border-radius: 10px;
-    margin-top: 10px !important;
-    color: #232424;
+  width: 100% !important;
+  font-weight: bold;
+  height: 14px;
+  padding: 0px 0px 0px 5px !important;
+  border-radius: 10px;
+  margin-top: 10px !important;
+  color: #232424;
 }
 
 li.category-li:first-child {
@@ -326,6 +311,14 @@ div.author-name {
   text-decoration: none;
 }
 
+#imgPasspoto {
+  display: block;
+}
+
+#imgTimeLine {
+  display: none;
+}
+
 /* ul {
   list-style-type: none;
   margin: 0;
@@ -333,7 +326,6 @@ div.author-name {
   width: 100%;
   border: solid 1px #ccc;
 } */
-
 
 /*************************************/
 /****** CSS FOR RESPONSIVE ***********/
@@ -352,5 +344,11 @@ div.author-name {
   }
   #myTabContent > div > ul > ul > li {
     width: 100% !important;
+  }
+  #imgPasspoto {
+    display: none;
+  }
+  #imgTimeLine {
+    display: block;
   }
 }
