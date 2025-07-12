@@ -318,7 +318,11 @@ div.author-name {
 #imgTimeLine {
   display: none;
 }
-
+.dropdown-item {
+  width: 80% !important;
+  background-color: white !important;
+  cursor: pointer;
+}
 /* ul {
   list-style-type: none;
   margin: 0;
@@ -365,6 +369,8 @@ div.author-name {
       border-radius: 8px;
       padding: 8px;
       text-align: center;
+      box-shadow: rgba(11, 11, 207, 0.2) 0px 7px 29px 0px;
+
     }
     .gallery-item img {
       width: 100%;
@@ -406,5 +412,5 @@ div.author-name {
       margin-top: 5px;
       font-size: 13px;
       color: #666;
-      display: none;
+      display: block;
     }
