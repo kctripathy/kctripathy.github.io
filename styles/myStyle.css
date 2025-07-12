@@ -351,12 +351,40 @@ div.author-name {
   #imgTimeLine {
     display: block;
   }
+
+
+  .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+      gap: 15px;
+      margin-bottom: 10px !important;
+    }
+    .gallery-item {
+      background: #f0f0f0 !important;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 8px;
+      text-align: center;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      max-height: 200px !important;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .caption {
+      margin-top: 5px;
+      font-size: 13px;
+      color: #666;
+      display: none;
+    }
 }
 
 /************************* gallery ***************/
  .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 15px;
       margin-bottom: 30px;
     }
@@ -370,7 +398,7 @@ div.author-name {
     .gallery-item img {
       width: 100%;
       height: auto;
-      max-height: 120px;
+      max-height: 150px;
       object-fit: cover;
       border-radius: 4px;
     }

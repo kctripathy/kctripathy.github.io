@@ -31,10 +31,6 @@
         "url": "./assets/images/myphotos\\spiritual\\kctr_69.jpg"
       },
       {
-        "name": "kctr_70.jpg",
-        "url": "./assets/images/myphotos\\spiritual\\kctr_70.jpg"
-      },
-      {
         "name": "kctr_71.jpg",
         "url": "./assets/images/myphotos\\spiritual\\kctr_71.jpg"
       },
@@ -109,10 +105,6 @@
         "url": "./assets/images/myphotos\\family\\kctr_16.jpg"
       },
       {
-        "name": "kctr_17.jpg",
-        "url": "./assets/images/myphotos\\family\\kctr_17.jpg"
-      },
-      {
         "name": "kctr_18.jpg",
         "url": "./assets/images/myphotos\\family\\kctr_18.jpg"
       },
@@ -159,10 +151,6 @@
       {
         "name": "kctr_28.jpg",
         "url": "./assets/images/myphotos\\family\\kctr_28.jpg"
-      },
-      {
-        "name": "kctr_29.jpg",
-        "url": "./assets/images/myphotos\\family\\kctr_29.jpg"
       },
       {
         "name": "kctr_3.jpg",
@@ -231,10 +219,6 @@
         "url": "./assets/images/myphotos\\myself\\kctr_37.jpg"
       },
       {
-        "name": "kctr_38.jpg",
-        "url": "./assets/images/myphotos\\myself\\kctr_38.jpg"
-      },
-      {
         "name": "kctr_39.jpg",
         "url": "./assets/images/myphotos\\myself\\kctr_39.jpg"
       },
@@ -253,16 +237,29 @@
       {
         "name": "kctr_43.jpg",
         "url": "./assets/images/myphotos\\myself\\kctr_43.jpg"
-      },
-      {
-        "name": "kctr_44.jpg",
-        "url": "./assets/images/myphotos\\myself\\kctr_44.jpg"
       }
     ]
   },
   {
     "category": "near-n-dear",
     "images": [
+      {
+        "name": "kctr_47.jpg",
+        "url": "./assets/images/myphotos\\near-n-dear\\kctr_47.jpg"
+      },
+      {
+        "name": "kctr_54.jpg",
+        "url": "./assets/images/myphotos\\near-n-dear\\kctr_54.jpg"
+      },
+      
+      {
+        "name": "kctr_55.jpg",
+        "url": "./assets/images/myphotos\\near-n-dear\\kctr_55.jpg"
+      },
+      {
+        "name": "kctr_56.jpg",
+        "url": "./assets/images/myphotos\\near-n-dear\\kctr_56.jpg"
+      },
       {
         "name": "kctr_45.jpg",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_45.jpg"
@@ -271,10 +268,7 @@
         "name": "kctr_46.jpg",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_46.jpg"
       },
-      {
-        "name": "kctr_47.jpg",
-        "url": "./assets/images/myphotos\\near-n-dear\\kctr_47.jpg"
-      },
+      
       {
         "name": "kctr_48.jpg",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_48.jpg"
@@ -298,19 +292,8 @@
       {
         "name": "kctr_53.jpg",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_53.jpg"
-      },
-      {
-        "name": "kctr_54.jpg",
-        "url": "./assets/images/myphotos\\near-n-dear\\kctr_54.jpg"
-      },
-      {
-        "name": "kctr_55.jpg",
-        "url": "./assets/images/myphotos\\near-n-dear\\kctr_55.jpg"
-      },
-      {
-        "name": "kctr_56.jpg",
-        "url": "./assets/images/myphotos\\near-n-dear\\kctr_56.jpg"
       }
+      
     ]
   }
   

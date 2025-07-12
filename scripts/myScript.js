@@ -567,6 +567,7 @@ fetch('./assets/data/images.json')
             item.className = "gallery-item";
 
             const imageEl = document.createElement("img");
+            imageEl.classList.add("img", "img-fluid","img-slide");
             imageEl.src = img.url.replace(/\\/g, '/'); // convert backslashes to slashes
             imageEl.alt = img.name;
             imageEl.onerror = () => {
