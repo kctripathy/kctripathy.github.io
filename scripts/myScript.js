@@ -404,6 +404,7 @@ function populateMusicSection(data) {
     btn.setAttribute("type", "button");
     btn.setAttribute("role", "tab");
     btn.setAttribute("aria-selected", "true");
+    btn.setAttribute("onclick", "setTitle(this);");
     if (ctr == 1) {
       btn.classList.add("active");
     }
@@ -567,13 +568,20 @@ fetch('./assets/data/images.json')
             item.className = "gallery-item";
 
             const imageEl = document.createElement("img");
-            imageEl.classList.add("img", "img-fluid","img-slide");
+            imageEl.classList.add("img", "img-fluid","img-slide","kt-photo");
             imageEl.src = img.url.replace(/\\/g, '/'); // convert backslashes to slashes
             imageEl.alt = img.name;
+            
             imageEl.onerror = () => {
               imageEl.style.display = "none";
               item.innerHTML += `<div style="color:red">Image not found</div>`;
             };
+
+            //
+            imageEl.setAttribute("onclick","showImage(this)");
+            imageEl.setAttribute("data-bs-toggle","modal");
+            imageEl.setAttribute("data-bs-target","#exampleModal");
+            
 
             const caption = document.createElement("div");
             caption.className = "caption";
@@ -591,4 +599,19 @@ fetch('./assets/data/images.json')
         document.getElementById("gallery-container").innerText = "Failed to load images.json";
         console.error(err);
       });
+}
+
+function setTitle(el) {
+  const h2 = document.getElementById("music-sub-title-2");
+  h2.innerHTML = `Songs based on Raaga : <span class='kt-highlight'>${el.innerText}</span>`;
+}
+
+function showImage(el) {
+  //debugger;
+  const img = document.getElementById("modalImage");
+  img.setAttribute("src", el.src);
+  img.classList.add("img", "img-fluid", "img-responsive","modal-popup-image");
+
+  const element = document.getElementById("modalLabel");
+  element.innerHTML = el.alt;
 }

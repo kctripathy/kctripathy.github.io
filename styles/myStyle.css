@@ -1,5 +1,5 @@
 :root {
-  --brand: #00a86b;
+  --brand: #016f47;
   --blue: #1e90ff;
   --white: #ffffff;
   --subTitle: #4b4b4b;
@@ -23,7 +23,7 @@ header {
 }
 
 .navbar-brand {
-  color: #00a86b !important;
+  color: var(--brand) !important;
   font-weight: bolder;
 }
 
@@ -89,7 +89,7 @@ a {
 }
 
 a:hover {
-  color: #014129;
+  color: var(--brand);
 }
 
 /*************************************/
@@ -165,8 +165,7 @@ h4.sub-title-2 {
 }
 
 .kt-highlight {
-  /*font-weight: bold !important;*/
-  color: #00a86b;
+  color: var(--brand);
 }
 
 .title-summary {
@@ -215,7 +214,7 @@ li.topic-value {
 }
 .active-menu {
   font-weight: bold;
-  color: #00a86b;
+  color: var(--brand);
   text-decoration: underline;
 }
 
@@ -408,10 +407,15 @@ div.author-name {
       max-height: 150px;
       object-fit: cover;
       border-radius: 4px;
+      cursor: pointer;
     }
     .caption {
       margin-top: 5px;
       font-size: 13px;
       color: #666;
       display: block;
+    }
+
+    .modal-popup-image {
+      width: 100vw;
     }

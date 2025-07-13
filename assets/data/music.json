@@ -2,6 +2,68 @@
   "title": "Music",
   "raga-songs": [
     {
+      "kirwani": [
+        {
+          "title": "Ajare Pardesi",
+          "film": "Madhumati (1958)",
+          "singer": "Lata Mangeshkar",
+          "music": "Salil Chowdhury"
+        },
+        {
+          "title": "Dil Dhoondta Hai Phir Wahi",
+          "film": "Mausam (1975)",
+          "singer": "Bhupinder Singh, Lata Mangeshkar",
+          "music": "Madan Mohan"
+        },
+        {
+          "title": "Zindagi Kaisi Hai Paheli (inspired)",
+          "film": "Anand (1971)",
+          "singer": "Manna Dey",
+          "music": "Salil Chowdhury"
+        },
+        {
+          "title": "Neele Gagan Ke Tale (touches Kirwani)",
+          "film": "Humraaz (1967)",
+          "singer": "Mahendra Kapoor",
+          "music": "Ravi"
+        },
+        {
+          "title": "Aa Zara Kareeb Se",
+          "film": "Murder 2 (2011)",
+          "singer": "Sunidhi Chauhan",
+          "music": "Sangeet-Siddharth"
+        },
+        {
+          "title": "Tere Bin Nahin Lagda Dil",
+          "film": "Kachche Dhaage (1999)",
+          "singer": "Nusrat Fateh Ali Khan",
+          "music": "Nusrat Fateh Ali Khan"
+        },
+        {
+          "title": "Yaara Seeli Seeli",
+          "film": "Lekin (1991)",
+          "singer": "Lata Mangeshkar",
+          "music": "Hridaynath Mangeshkar"
+        },
+        {
+          "title": "Aye Dil-e-Nadaan",
+          "film": "Razia Sultan (1983)",
+          "singer": "Lata Mangeshkar",
+          "music": "Khayyam"
+        },
+        {
+          "title": "Phir Le Aaya Dil (Rekha Bhardwaj ver.)",
+          "film": "Barfi! (2012)",
+          "singer": "Rekha Bhardwaj",
+          "music": "Pritam"
+        },
+        {
+          "title": "Sajda (partially Kirwani-inspired)",
+          "film": "My Name is Khan (2010)",
+          "singer": "Rahat Fateh Ali Khan & others",
+          "music": "Shankar–Ehsaan–Loy"
+        }
+      ],
       "shivranjani": [
         {
           "title": "Jaane Kya Baat Hai",
@@ -122,6 +184,36 @@
       ],
       "yaman": [
         {
+          "title": "Eri Ali Piya Bin",
+          "artist": "Pandit Bhimsen Joshi",
+          "type": "Khayal / Bada Khayal",
+          "by": "Traditional"
+        },
+        {
+          "title": "Piya Bin Nahin Aavat Chain",
+          "artist": "Ustad Rashid Khan",
+          "type": "Bandish & Taan-based",
+          "by": "Traditional"
+        },
+        {
+          "title": "Piya Ke Milan Ki Aas",
+          "artist": "Kishori Amonkar",
+          "type": "Vilambit Khayal",
+          "by": "Jaipur-Atrauli Gharana"
+        },
+        {
+          "title": "Mero Allah Meherban",
+          "artist": "Pandit Jasraj",
+          "type": "Khayal / Tarana",
+          "by": "Mewati Gharana"
+        },
+        {
+          "title": "Laagi Lagan Pati Sakhi Sang",
+          "artist": "Ustad Amir Khan",
+          "type": "Khayal – Vilambit",
+          "by": "Indore Gharana"
+        },
+        {
           "title": "Chandni Raat Hai",
           "film": "Jahan Ara (1964)",
           "singer": "Talat Mahmood",
@@ -187,7 +279,7 @@
           "title": "Babul Mora Naihar Chhooto Hi Jaaye",
           "film": "Street Singer (1938)",
           "singer": "K.L. Saigal",
-          "musicDirector": "Rai Chand Boral"
+          "music": "Rai Chand Boral"
         },
         {
           "title": "Jhanak Jhanak Tori Baje Payaliya",

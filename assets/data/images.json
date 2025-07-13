@@ -46,6 +46,10 @@
     "category": "parent",
     "images": [
       {
+        "name": "My Father and Mother @ Puri",
+        "url": "./assets/images/myphotos\\parent\\kctr_62.jpg"
+      },
+      {
         "name": "My Mother",
         "url": "./assets/images/myphotos\\parent\\kctr_57.jpg"
       },
@@ -64,10 +68,23 @@
       {
         "name": "My Father",
         "url": "./assets/images/myphotos\\parent\\kctr_61.jpg"
+      } 
+    ]
+  },
+  {
+    "category": "in-laws",
+    "images": [
+      {
+        "name": "My in-laws (father & mother)",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1057.JPG"
       },
       {
-        "name": "My Father and Mother @ Puri",
-        "url": "./assets/images/myphotos\\parent\\kctr_62.jpg"
+        "name": "kctr_1058.JPG",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1058.JPG"
+      },
+      {
+        "name": "Brother in laws",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1059.JPG"
       }
     ]
   },
@@ -99,6 +116,14 @@
         "url": "./assets/images/myphotos\\family\\kctr_14.jpg"
       },
       {
+        "name": "kctr_21",
+        "url": "./assets/images/myphotos\\family\\kctr_21.jpg"
+      },
+      {
+        "name": "kctr_1050.jpg",
+        "url": "./assets/images/myphotos\\my-family\\kctr_1050.jpg"
+      },
+      {
         "name": "kctr_15",
         "url": "./assets/images/myphotos\\family\\kctr_15.jpg"
       },
@@ -123,10 +148,6 @@
         "url": "./assets/images/myphotos\\family\\kctr_20.jpg"
       },
       {
-        "name": "kctr_21",
-        "url": "./assets/images/myphotos\\family\\kctr_21.jpg"
-      },
-      {
         "name": "kctr_22",
         "url": "./assets/images/myphotos\\family\\kctr_22.jpg"
       },
@@ -134,10 +155,7 @@
         "name": "kctr_23",
         "url": "./assets/images/myphotos\\family\\kctr_23.jpg"
       },
-      {
-        "name": "kctr_24",
-        "url": "./assets/images/myphotos\\family\\kctr_24.jpg"
-      },
+      
       {
         "name": "kctr_25",
         "url": "./assets/images/myphotos\\family\\kctr_25.jpg"
@@ -488,10 +506,6 @@
         "url": "./assets/images/myphotos\\my-family\\kctr_1049.jpg"
       },
       {
-        "name": "kctr_1050.jpg",
-        "url": "./assets/images/myphotos\\my-family\\kctr_1050.jpg"
-      },
-      {
         "name": "kctr_1051.jpg",
         "url": "./assets/images/myphotos\\my-family\\kctr_1051.jpg"
       },
@@ -514,31 +528,6 @@
       {
         "name": "kctr_1056.JPG",
         "url": "./assets/images/myphotos\\my-family\\kctr_1056.JPG"
-      }
-    ]
-  },
-  {
-    "category": "my-in-law-family",
-    "images": [
-      {
-        "name": "My in-laws (father & mother)",
-        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1057.JPG"
-      },
-      {
-        "name": "kctr_1058.JPG",
-        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1058.JPG"
-      },
-      {
-        "name": "Brother in laws",
-        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1059.JPG"
-      },
-      {
-        "name": "Brother in laws",
-        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1060.JPG"
-      },
-      {
-        "name": "kctr_1061.jpeg",
-        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1061.jpeg"
       }
     ]
   },
