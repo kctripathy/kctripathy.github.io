@@ -1,0 +1,22 @@
+Step 1: Open Your Playlist in a Browser
+
+
+
+Step 2: Run This Snippet in Console
+var els = document.querySelectorAll('a.yt-simple-endpoint.style-scope.ytd-playlist-video-renderer');
+var embedUrls = [];
+els.forEach(el => {
+  var id = el.href.split('?v=')[1].split('&list')[0];
+  embedUrls.push(`https://www.youtube.com/embed/${id}`);
+});
+console.log(embedUrls.join('\n'));
+
+
+Step 3: Use or Copy the Embed Links
+
+Bonus: Why This Works
+The querySelectorAll('a.yt-simple-endpoint…') targets each video link in the playlist.
+
+The code extracts the ?v= parameter (video ID) and rebuilds the embed link.
+
+This technique is inspired by scripts shared on GitHub for playlist scraping

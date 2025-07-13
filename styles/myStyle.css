@@ -2,7 +2,8 @@
   --brand: #016f47;
   --blue: #1e90ff;
   --white: #ffffff;
-  --subTitle: #4b4b4b;
+  --subTitle: #aa0600;
+  --highlight: #ff6600;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   margin: 0;
   background-color: #f4f9ff;
   color: #333;
-  background-image: url("../assets/images/bg-kishor-7.jpg");
+  /* background-image: url("../assets/images/bg-kishor-7.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -419,3 +420,46 @@ div.author-name {
     .modal-popup-image {
       width: 100vw;
     }
+
+    /************ video ************/
+    .gallery-video {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 25px;
+      margin-bottom: 30px;
+
+  /*grid-template-rows: 300px 200px;  Sets row heights */
+    }
+
+    .gallery-item-video {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 8px;
+      text-align: center;
+    }
+
+    .gallery-item-video iframe {
+      width: 100%;
+      height: auto;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .caption {
+      margin-top: 5px;
+      font-size: 13px;
+      color: #666;
+      display: block;
+    }
+
+    .modal-popup-image {
+      width: 100vw;
+    }
+  .highlight {
+    color: var(--highlight);
+    font-weight: bold;
+
+  }
