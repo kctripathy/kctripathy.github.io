@@ -96,24 +96,8 @@
   ],
   "music": [
     {
-      "karaoke-tracks": [
-        {
-          "name": "Aji mu srabani | Scale: C Minor",
-          "author": "Shantanu Mohapatra | Lata",
-          "link": "https://youtu.be/Qeybz9ckdeA"
-        },
-        {
-          "name": "Satyam Shivam Sundaram | C#",
-          "author": "Laxmikant Pyarelal | Lata",
-          "link": "https://youtu.be/Rp6LpUOsXSs?si=Ktf-SFwkTJYlIRxL"
-        },
-        {
-          "name": "Jab Deep Jale Aana | Scale A#",
-          "author": "Ravindra Jain | Yesudash & Hemlata",
-          "link": "./assets/downloads/music/bl.rar"
-        }
-      ],
-      "folk-music-odia (MP3)": [
+      
+      "folk-music-odia": [
         {
           "name": "Radha Prema Leela",
           "author": "Guru Sri Surendra Sahu",
@@ -130,7 +114,7 @@
           "link": "./assets/downloads/music/bl.rar"
         }
       ],
-      "light-music-odia (MP3)": [
+      "light-music-odia": [
         {
           "name": "Nupura Bajaye Kiye...",
           "author": "Guru Sri Raghunath Panigrahi",
