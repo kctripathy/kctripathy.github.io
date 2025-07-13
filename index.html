@@ -1,141 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <title>
+      Welcome | Kishor Tripathy | Software developer | Web application developer
+      | Angular | C# | .NET8 | SQL Server
+    </title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-  <title>
-    Welcome | Kishor Tripathy | Software developer | Web application developer
-    | Angular | C# | .NET8 | SQL Server
-  </title>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/myStyle.css" />
+    <link rel="stylesheet" href="./styles/slides.css" />
+    <link rel="stylesheet" href="./styles/music.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./styles/myStyle.css" />
-  <link rel="stylesheet" href="./styles/slides.css" />
-  <link rel="stylesheet" href="./styles/music.css" />
+    <script src="/scripts/myScript.js"></script>
+    <!-- <script src="/scripts/slides.js"></script> -->
+    <script>
+      loadHTML("nav", "menu");
+      loadHTML("home", "home-page");
+      loadHTML("footer", "footer");
+    </script>
+  </head>
 
-  <script src="/scripts/myScript.js"></script>
-  <!-- <script src="/scripts/slides.js"></script> -->
-  <script>
-    loadHTML("nav", "menu");
-    loadHTML("home", "home-page");
-    loadHTML("footer", "footer");
-    //fetchDownloads();
-  </script>
-</head>
+  <body>
+    <div id="menu"></div>
 
-<body>
+    <main style="text-align: center">
+      <section id="home">
+        <div id="home-page"></div>
+      </section>
 
-  <div id="menu"></div>
+      <section id="about" class="d-none">
+        <div id="about-page"></div>
+      </section>
 
-  <main style="text-align: center">
+      <section id="projects" class="d-none">
+        <h4 class="sub-title" id="page-title">Projects</h4>
+        <div class="divider-2"></div>
+        <div id="project-list"></div>
+      </section>
 
-    <section id="home">
-      <div id="home-page"></div>
-    </section>
+      <section id="video" class="d-none">
+        <h4 class="sub-title">Video Gallery</h4>
+        <div class="divider-2"></div>
+        <div id="gallery-container-video">Loading...</div>
+      </section>
 
-    <section id="about" class="d-none">
-      <div id="about-page"></div>
-    </section>
+      <section id="gallery" class="d-none">
+        <h4 class="sub-title">Photo Gallery</h4>
+        <div class="divider-2"></div>
+        <div id="gallery-container">Loading...</div>
+      </section>
 
-    <section id="projects" class="d-none">
-      <h4 class="sub-title" id="page-title">Projects</h4>
-      <div class="divider-2"></div>
-      <div id="project-list"></div>
-    </section>
+      <section id="downloads" class="d-none">
+        <h4 class="sub-title">Downloads</h4>
+        <div class="divider-2"></div>
 
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist"></ul>
 
+        <!-- Tab content -->
+        <div
+          class="tab-content border border-top-0 p-3"
+          id="myTabContent"
+        ></div>
+      </section>
 
+      <section id="music" class="d-none">
+        <h4 class="sub-title">Music</h4>
+        <div class="divider-2"></div>
+        <h4 class="sub-title-2" id="music-sub-title-2"></h4>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="myTab_music" role="tablist"></ul>
 
-    <section id="video" class="d-none">
-      <h4 class="sub-title">Video Gallery</h4>
-      <div class="divider-2"></div>
-      <div id="gallery-container-video">Loading...</div>
-    </section>
+        <!-- Tab content -->
+        <div
+          class="tab-content border border-top-0 p-3"
+          id="myTabContent_music"
+        ></div>
+      </section>
 
-    <section id="gallery" class="d-none">
-      <h4 class="sub-title">Photo Gallery</h4>
-      <div class="divider-2"></div>
-      <div id="gallery-container">Loading...</div>
-    </section>
+      <section id="contact" class="d-none">
+        <div id="contact-page"></div>
+      </section>
+    </main>
 
-    <section id="downloads" class="d-none">
-      <h4 class="sub-title">Downloads</h4>
-      <div class="divider-2"></div>
+    <div id="footer" class="kt-footer bg-light"></div>
 
-      <!-- <a id="my-resume" href="./assets/downloads/resume.pdf" target="_blank">Download My Resume</a> -->
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-      </ul>
-
-      <!-- Tab content -->
-      <div class="tab-content border border-top-0 p-3" id="myTabContent">
-      </div>
-    </section>
-
-    <section id="music" class="d-none">
-      <h4 class="sub-title">Music</h4>
-      <div class="divider-2"></div>
-      <h4 class="sub-title-2" id="music-sub-title-2"></h4>
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs" id="myTab_music" role="tablist">
-      </ul>
-
-      <!-- Tab content -->
-      <div class="tab-content border border-top-0 p-3" id="myTabContent_music">
-      </div>
-    </section>
-
-    <section id="contact" class="d-none">
-      <div id="contact-page"></div>
-    </section>
-  </main>
-
-  <div id="footer" class="kt-footer bg-light">
-
-  </div>
-
-  <!-- <script>runSlides();</script> -->
-
-  <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="sub-title-2" id="modalLabel"></div>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img id="modalImage">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="sub-title-2" id="modalLabel"></div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img id="modalImage" />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary btn-xs"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-</body>
-
+  </body>
 </html>
