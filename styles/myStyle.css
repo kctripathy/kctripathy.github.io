@@ -2,6 +2,7 @@
   --brand: #00a86b;
   --blue: #1e90ff;
   --white: #ffffff;
+  --subTitle: #4b4b4b;
 }
 
 body {
@@ -133,11 +134,11 @@ h4.sub-title {
 }
 
 h4.sub-title-2 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: bold;
   padding: 0;
   margin: 0px 0px 5px 0px;
-  color: var(--brand);
+  color: var(--subTitle);
 }
 
 .divider {
