@@ -1,3 +1,45 @@
+
+
+
+
+[
+
+  
+      {
+        "name": "Sri Krishna, look his smile!",
+        "url": "./assets/images/myphotos\\spiritual\\kctr_67.jpg"
+      }
+
+   
+  
+  {
+    "category": "in-laws",
+    "images": [
+      
+      {
+        "name": "father and mother in law",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1058.JPG"
+      },
+      {
+        "name": "Brother in laws",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1059.JPG"
+      }
+    ]
+  },
+  
+  {
+    "category": "Bharata Leela Songs | ଭାରତ ଲୀଳା ଗୀତ ସଂଗ୍ରହ",
+    "images": [
+      {
+        "name": "କ‌ହ ହ‌ନୂ ମୋର କାନ୍ତର କୁଶଳ...#ବିଚିତ୍ର_ରାମାୟଣ",
+        "url": "https://www.youtube.com/embed/P3E9OJHkSWs"
+      },
+      { "name": "", "url": "https://www.youtube.com/embed/X9Nbyxt9ttM" },
+      { "name": "", "url": "https://www.youtube.com/embed/7iiqSTiRZOA" },
+      { "name": "", "url": "https://www.youtube.com/embed/ejpQgSbjfPM" },
+      { "name": "", "url": "https://www.youtube.com/embed/0CIz8k3aNy0" }
+    ]
+  },
 {
   "title": "Music",
   "raga-songs": [
@@ -1664,4 +1706,4 @@
       
     }
   ]
-}
+}]

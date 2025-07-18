@@ -7,47 +7,49 @@
         "url": "./assets/images/myphotos\\spiritual\\kctr_69.jpg"
       },
       {
-        "name": "Offering to Sri Gopinath Swami",
-        "url": "./assets/images/myphotos\\near-n-dear\\kctr_53.jpg"
-      },
-      {
-        "name": "Jay Sri Krishna",
-        "url": "./assets/images/myphotos\\myself\\kctr_36.jpg"
+        "name": "Maa Sharaswati",
+        "url": "./assets/images/myphotos\\spiritual\\kctr_65.jpg"
       },
       {
         "name": "Mahadev Temple of our Village",
         "url": "./assets/images/myphotos\\spiritual\\kctr_63.jpg"
       },
       {
-        "name": "Sri Gopinath Swami",
-        "url": "./assets/images/myphotos\\spiritual\\kctr_64.jpg"
-      },
-      {
-        "name": "Maa Sharaswati",
-        "url": "./assets/images/myphotos\\spiritual\\kctr_65.jpg"
-      },
-      {
-        "name": "Sri Krishna, look his smile!",
-        "url": "./assets/images/myphotos\\spiritual\\kctr_67.jpg"
+        "name": "Oum Namah Shivaya!",
+        "url": "./assets/images/myphotos\\spiritual\\kctr_71.jpg"
       },
       {
         "name": "Radhe Krishna",
         "url": "./assets/images/myphotos\\spiritual\\kctr_68.jpg"
       },
-      
       {
-        "name": "Oum Namah Shivaya!",
-        "url": "./assets/images/myphotos\\spiritual\\kctr_71.jpg"
-      } 
+        "name": "Jay Sri Krishna",
+        "url": "./assets/images/myphotos\\myself\\kctr_36.jpg"
+      },
+      {
+        "name": "Sri Gopinath Swami",
+        "url": "./assets/images/myphotos\\spiritual\\kctr_64.jpg"
+      },
+      {
+        "name": "Offering to Sri Gopinath Swami",
+        "url": "./assets/images/myphotos\\near-n-dear\\kctr_53.jpg"
+      }
     ]
   },
-  
   {
-    "category": "parent",
+    "category": "For whom we are here...",
     "images": [
+      {
+        "name": "My Grand Mother",
+        "url": "./assets/images/myphotos\\parent\\kctr_60.jpg"
+      },
       {
         "name": "My Father and Mother @ Puri",
         "url": "./assets/images/myphotos\\parent\\kctr_62.jpg"
+      },
+      {
+        "name": "My in-laws (father & mother)",
+        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1057.JPG"
       },
       {
         "name": "My Mother",
@@ -61,30 +63,10 @@
         "name": "My Father",
         "url": "./assets/images/myphotos\\parent\\kctr_59.jpg"
       },
-      {
-        "name": "My Grand Mother",
-        "url": "./assets/images/myphotos\\parent\\kctr_60.jpg"
-      },
+      
       {
         "name": "My Father",
         "url": "./assets/images/myphotos\\parent\\kctr_61.jpg"
-      } 
-    ]
-  },
-  {
-    "category": "in-laws",
-    "images": [
-      {
-        "name": "My in-laws (father & mother)",
-        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1057.JPG"
-      },
-      {
-        "name": "father and mother in law",
-        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1058.JPG"
-      },
-      {
-        "name": "Brother in laws",
-        "url": "./assets/images/myphotos\\my-in-law-family\\kctr_1059.JPG"
       }
     ]
   },
@@ -155,7 +137,6 @@
         "name": "kctr_23",
         "url": "./assets/images/myphotos\\family\\kctr_23.jpg"
       },
-      
       {
         "name": "kctr_25",
         "url": "./assets/images/myphotos\\family\\kctr_25.jpg"
@@ -221,8 +202,6 @@
         "name": "kctr_1081.jpg",
         "url": "./assets/images/myphotos\\Passphoto\\kctr_1081.jpg"
       },
-      
-      
       {
         "name": "kctr_1084.jpg",
         "url": "./assets/images/myphotos\\Passphoto\\kctr_1084.jpg"
@@ -251,8 +230,6 @@
         "name": "kctr_35",
         "url": "./assets/images/myphotos\\myself\\kctr_35.jpg"
       },
-      
-      
       {
         "name": "@Gopinath Swami Temple, BD Pur",
         "url": "./assets/images/myphotos\\myself\\kctr_40.jpg"
@@ -261,7 +238,6 @@
         "name": "@ Desert Safari, Dubai",
         "url": "./assets/images/myphotos\\myself\\kctr_41.jpg"
       },
-      
       {
         "name": "kctr_43",
         "url": "./assets/images/myphotos\\myself\\kctr_43.jpg"
@@ -299,8 +275,6 @@
         "name": "kctr_1092.jpg",
         "url": "./assets/images/myphotos\\we-were-at-dubai\\kctr_1092.jpg"
       },
-     
-       
       {
         "name": "kctr_1004.jpg",
         "url": "./assets/images/myphotos\\couple-photo\\kctr_1004.jpg"
@@ -414,7 +388,6 @@
         "name": "kctr_1031.JPG",
         "url": "./assets/images/myphotos\\lilu\\kctr_1031.JPG"
       },
-       
       {
         "name": "kctr_1033.jpg",
         "url": "./assets/images/myphotos\\lilu\\kctr_1033.jpg"
@@ -611,7 +584,6 @@
         "name": "Ashok, Dr. Narashinga & Me",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_46.jpg"
       },
-      
       {
         "name": "With my friends at Dubai",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_48.jpg"
@@ -620,7 +592,6 @@
         "name": "Kuresh & me",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_49.jpg"
       },
-      
       {
         "name": "With best persons of my Village",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_51.jpg"
@@ -629,7 +600,6 @@
         "name": "Me and my best companion",
         "url": "./assets/images/myphotos\\near-n-dear\\kctr_52.jpg"
       }
-      
     ]
   },
   {
@@ -645,7 +615,6 @@
       }
     ]
   },
-  
   {
     "category": "my-village",
     "images": [
@@ -667,8 +636,4 @@
       }
     ]
   }
-  
-  
-  
-  
 ]
