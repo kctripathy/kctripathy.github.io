@@ -1,9 +1,10 @@
 :root {
-  --brand: #016f47;
+  --brand: #002366; /*#016f47;*/
   --blue: #1e90ff;
   --white: #ffffff;
   --subTitle: #aa0600;
   --highlight: #ff6600;
+  --sub-title: #818488;
 }
 
 body {
@@ -49,7 +50,7 @@ main {
   display: block;
   margin: 20px auto;
   border: solid 1px #ccc;
-  min-height: 1000px;
+  min-height: 600px;
   border-radius: 20px;
   background-color: white;
 }
@@ -93,7 +94,10 @@ a {
 a:hover {
   color: var(--brand);
 }
-
+p {
+  letter-spacing: 0.1px;
+  line-height: 1.25;
+}
 /*************************************/
 .kt-footer {
   position: fixed;
@@ -143,11 +147,11 @@ h4.sub-title-2 {
   margin: 0px 0px 5px 0px;
   color: var(--subTitle); */
 
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: bold;
     padding: 20px;
     margin: 50px 0px 5px 0px;
-    color: #244230;
+    color: var(--sub-title);
 }
 
 h4.sub-title-2:first-child {
@@ -172,7 +176,7 @@ h4.sub-title-2:first-child {
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(0, 168, 107, 1) 50%,
+    var(--brand) 50%,
     rgba(255, 255, 255, 1) 100%
   );
 }
@@ -344,61 +348,7 @@ div.author-name {
   border: solid 1px #ccc;
 } */
 
-/*************************************/
-/****** CSS FOR RESPONSIVE ***********/
-/*************************************/
-@media only screen and (max-width: 600px) {
-  .social-media-text {
-    display: none;
-  }
-  .my-photo {
-    border: solid 1px #ccc;
-    padding: 5px;
-    margin-top: 0px;
-  }
-  .my-village-photo {
-    margin-top: 0px !important;
-  }
-  #myTabContent > div > ul > ul > li {
-    width: 100% !important;
-  }
-  #imgPasspoto {
-    display: none;
-  }
-  #imgTimeLine {
-    display: block;
-  }
 
-
-  .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
-      gap: 15px;
-      margin-bottom: 10px !important;
-    }
-    .gallery-item {
-      background: #f0f0f0 !important;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      padding: 8px;
-      text-align: center;
-      box-shadow: rgba(11, 11, 207, 0.2) 0px 7px 29px 0px;
-
-    }
-    .gallery-item img {
-      width: 100%;
-      height: auto;
-      max-height: 200px !important;
-      object-fit: cover;
-      border-radius: 4px;
-    }
-    .caption {
-      margin-top: 5px;
-      font-size: 13px;
-      color: #666;
-      display: none;
-    }
-}
 
 /************************* gallery ***************/
  .gallery {

@@ -1,0 +1,58 @@
+/*************************************/
+/****** CSS FOR RESPONSIVE ***********/
+/*************************************/
+@media only screen and (max-width: 600px) {
+main {
+    min-width: 100vw;
+}
+  .social-media-text {
+    display: none;
+  }
+  .my-photo {
+    border: solid 1px #ccc;
+    padding: 5px;
+    margin-top: 0px;
+  }
+  .my-village-photo {
+    margin-top: 0px !important;
+  }
+  #myTabContent > div > ul > ul > li {
+    width: 100% !important;
+  }
+  #imgPasspoto {
+    display: none;
+  }
+  #imgTimeLine {
+    display: block;
+  }
+
+
+  .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+      gap: 15px;
+      margin-bottom: 10px !important;
+    }
+    .gallery-item {
+      background: #f0f0f0 !important;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 8px;
+      text-align: center;
+      box-shadow: rgba(11, 11, 207, 0.2) 0px 7px 29px 0px;
+
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      max-height: 200px !important;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .caption {
+      margin-top: 5px;
+      font-size: 13px;
+      color: #666;
+      display: none;
+    }
+}

@@ -5,8 +5,6 @@ function showPage(pageName, element) {
     s.classList.add("d-none");
   });
 
-  debugger;
-
   var page_current = document.getElementById(pageName);
   page_current.className = "d-block";
 
@@ -195,7 +193,6 @@ function showGallery_Video(element) {
     .then((data) => {
       const container = document.getElementById("gallery-container-video");
       container.innerHTML = ""; // clear 'Loading...'
-debugger;
       data.forEach((group) => {
         const title = document.createElement("h4");
         title.textContent = toProperCase(group.category).replace(/-/g, " ");
