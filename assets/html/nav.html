@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:showPage('home','');">KC Tripathy</a>
+    <a id="linkTitle" class="navbar-brand" href="javascript:showPage('home','');">KC Tripathy</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -34,12 +34,14 @@
             Gallery
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" onclick="showPage('gallery',this);" data-tag="photo">Photo Gallery</a></li>
-                <li><a class="dropdown-item" onclick="showPage('video',this);" data-tag="video">Video Gallery</a></li>
+                <li><a class="dropdown-item" onclick="showPage('gallery',this);" data-tag="photo">My Photo Gallery</a></li>
+                <li><a class="dropdown-item" onclick="showPage('video',this);" data-tag="video">My Video Gallery</a></li>
+                <div class="divider"></div>
+                <li><a class="dropdown-item" onclick="showPage('code',this);" data-tag="video">Links Gallery</a></li>
                 <div class="divider"></div>
                 <li><a class="dropdown-item" onclick="showPage('music',this);" data-tag="raga-songs">
-                   Raaga-Songs Gallery </a>
-                   <div style="font-size: 0.8em; text-align: center; margin-top: -5px; color: #636363" >Film songs based on Raaga</div>
+                   Music Gallery </a>
+                   <div style="font-size: 0.8em; text-align: center; margin-top: -5px; color: #636363" >(Film songs based on Raaga)</div>
                 </li>
                 <!-- <li><a class="dropdown-item" onclick="showPage('gallery',this);">Code Gallery</a></li> -->
                 <!-- <li><a class="dropdown-item" onclick="showPage('gallery',this);">Photo Gallery</a></li> -->
@@ -48,7 +50,22 @@
           </ul>
         </li>
 
-      <!-- <li class="nav-item dropdown">
+        <li class="nav-item dropdown d-none" >
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Tech.
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" onclick="showPage('downloads',this);" data-tag="links">Useful <span class="kt-highlight">Links</span> / <span class="kt-highlight">Resources</span></a></li>
+                <li><a class="dropdown-item" onclick="showPage('downloads',this);" data-tag="code">Useful <span class="kt-highlight">Code</span> Snippets</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" onclick="showPage('music',this);">Top Ten <span class="kt-highlight">AI Websites</span> </a></li>
+                <li><a class="dropdown-item" onclick="showPage('music',this);">Top Ten <span class="kt-highlight">Chrome</span> Extensions</a></li>
+                <li><a class="dropdown-item" onclick="showPage('music',this);">Top Ten <span class="kt-highlight">VS Code</span> Extensions</a></li>
+          </ul>
+        </li>
+
+      <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
              data-bs-toggle="dropdown" aria-expanded="false">
             Music
@@ -61,7 +78,7 @@
                 <li><a class="dropdown-item  d-none" onclick="showPage('music',this);">Learn Flute</a></li>
                 <li><a class="dropdown-item  d-none" onclick="showPage('music',this);">Learn Hindusthan Classical</a></li>
           </ul>
-        </li> -->
+        </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -71,7 +88,10 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="./assets/downloads/resume.pdf" target="_blank">My Latest Resume</a></li>
                 <div class="dropdown-divider  d-none"></div>
-                <li><a class="dropdown-item" onclick="showPage('downloads',this);" data-tag="video">Books/MP3/etc.</a></li>
+                <li>
+                  <a class="dropdown-item" onclick="showPage('downloads',this);" data-tag="video">Useful Resources</a>
+                   <div style="font-size: 0.8em; text-align: center; margin-top: -5px; color: #636363" >(Books, MP3, Tech., etc.)</div>
+                </li>
                 
           </ul>
         </li>

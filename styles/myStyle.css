@@ -1,5 +1,5 @@
 :root {
-  --brand: #002366; /*#016f47;*/
+  --brand: #008800; /*#002366; #016f47;*/
   --blue: #1e90ff;
   --white: #ffffff;
   --subTitle: #aa0600;
@@ -9,7 +9,7 @@
 
 body {
   font-family: Roboto, serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0;
   background-color: #f4f9ff;
   color: #333;
@@ -99,6 +99,11 @@ p {
   line-height: 1.25;
 }
 /*************************************/
+
+#linkTitle {
+  display: none;
+}
+
 .kt-footer {
   position: fixed;
   bottom: 0px;
@@ -302,7 +307,7 @@ ul.inner_ul {
 li.category-li {
   width: 100% !important;
   font-weight: bold;
-  height: 14px;
+  height: 25px;
   padding: 0px 0px 0px 5px !important;
   border-radius: 10px;
   margin-top: 10px !important;
@@ -315,13 +320,17 @@ li.category-li:first-child {
 
 li.category-li > i {
   margin-left: -25px !important;
-  color: #d0d0d0;
+  color: #ff0000;
 }
 
 div.author-name {
   color: rgb(99, 99, 99);
   margin-top: -5px;
   font-size: 0.9em;
+}
+
+#technology-ul > ul > li > a {
+  text-decoration: none;
 }
 
 #my-resume {

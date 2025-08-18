@@ -1,5 +1,45 @@
 {
   "title": "My Downloads",
+  "technology": [
+    {
+      "Programming Fundamentals": [
+        {
+          "name": "Object Oriented Programming",
+          "author": "",
+          "link": "./assets/downloads/technology/object-oriented-programming.pdf"
+        },
+        {
+          "name": "SOLID Principle",
+          "author": "",
+          "link": "./assets/downloads/technology/solid_principle.pdf"
+        },
+        {
+          "name": "Design Patterns",
+          "author": "",
+          "link": "./assets/downloads/technology/Design-Patterns.pdf"
+        } 
+
+        
+      ],
+"Design Patterns": [
+        {
+          "name": "DP in a Nutshell",
+          "author": "",
+          "link": "./assets/downloads/technology/dp_in_nutshell.pdf"
+        },
+        {
+          "name": "Best way to remember DP",
+          "author": "",
+          "link": "./assets/downloads/technology/the-best-way-to-remember-design-patterns.pdf"
+        },
+        {
+          "name": "Tricks to remember DP",
+          "author": "",
+          "link": "./assets/downloads/technology/how-to-remember-design-pattern.pdf"
+        }
+      ] 
+    }
+  ],
   "books": [
     {
       "ayurveda": [
@@ -132,5 +172,5 @@
         }
       ]
     }
-  ]
+  ] 
 }

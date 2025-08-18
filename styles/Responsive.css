@@ -5,6 +5,9 @@
 main {
     min-width: 100vw;
 }
+#linkTitle {
+  display: block;
+}
   .social-media-text {
     display: none;
   }
