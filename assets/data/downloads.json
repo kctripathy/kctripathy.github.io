@@ -37,7 +37,52 @@
           "author": "",
           "link": "./assets/downloads/technology/how-to-remember-design-pattern.pdf"
         }
-      ] 
+      ],
+	  
+	  
+
+
+
+
+
+
+"Interview Questions and Answers": [
+        {
+          "name": "OOPS",
+          "author": "",
+          "link": "./assets/downloads/technology/interview-questions/Interview Question-OOPS.pdf"
+        },
+        {
+          "name": "SOLID Priniciple",
+          "author": "",
+          "link": "./assets/downloads/technology/interview-questions/Interview Questions-SOLID-Principles.pdf"
+        },
+        {
+          "name": "MVC",
+          "author": "",
+          "link": "./assets/downloads/technology/interview-questions/Interview Questions-MVC.pdf"
+        },
+        {
+          "name": ".NET Core/.NET5+",
+          "author": "",
+          "link": "./assets/downloads/technology/interview-questions/Interview Questions-NET_CORE.pdf"
+        },
+        {
+          "name": ".NET Core for Senior Candidates",
+          "author": "",
+          "link": "./assets/downloads/technology/interview-questions/Interview Questions-Senior_NET_Set-1.pdf"
+        },
+        {
+          "name": "ASP.NET Core",
+          "author": "",
+          "link": "./assets/downloads/technology/interview-questions/Interview-Questions-ASP_NET_Core.pdf"
+        },
+        {
+          "name": "SQL Server",
+          "author": "",
+          "link": "./assets/downloads/technology/interview-questions/Interview Question-SQLServer.pdf"
+        }
+      ] 	  
     }
   ],
   "books": [
