@@ -542,3 +542,21 @@ function getTech(technologies) {
 
   return returnText.substring(0, returnText.length - 2);
 }
+
+
+    function generatePdfFromText(textInput) {
+        // Initialize jsPDF
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+
+        // Add the text to the PDF
+        // The parameters are: text, x-coordinate, y-coordinate
+        doc.text(textInput, 10, 10);
+
+        // Save the PDF with a specified filename
+        doc.save("document.pdf");
+    }
+
+    // Example usage:
+    // Call this function with the text you want to convert
+    // generatePdfFromText("This is the text content for my PDF document.");
